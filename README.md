@@ -27,8 +27,8 @@
 ## 📊 Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=seonwooj0810&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seonwooj0810&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img height="165" src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats" />
+  <img height="165" src="./profile-summary-card-output/default/1-repos-per-language.svg" alt="Top Languages" />
 </p>
 <p>
   <img height="165" src="https://streak-stats.demolab.com?user=seonwooj0810&hide_border=true" alt="GitHub Streak" />
