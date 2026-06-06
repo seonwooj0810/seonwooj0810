@@ -1,0 +1,24 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 00:00 UTC (09:00 KST)
+  workflow_dispatch: # 수동 실행용
+
+permissions:
+  contents: write
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: velog 최신 글로 README 갱신
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://v2.velog.io/rss/@jungseonw00"
+          max_post_count: 5
+          commit_message: "docs: 최신 블로그 글 갱신"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
