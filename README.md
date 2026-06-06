@@ -8,16 +8,25 @@
 
 <!-- OSS-LIST:START -->
 
-| Project | Pull Request | Merged |
-|:---|:---|:---:|
-| <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)** | [**#23872**](https://github.com/OpenAPITools/openapi-generator/pull/23872) [Java][restclient] Build XmlMapper via builder when useJackson3=true | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-| <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[FasterXML/jackson-core](https://github.com/FasterXML/jackson-core)** | [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613) Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707) | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-|  | [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614) Preserve explicit "+" sign across buffer boundaries for "+0..." on async parser | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-| <img src="https://github.com/spring-cloud.png" width="16" height="16"/> **[spring-cloud/spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** | [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378) Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-| <img src="https://github.com/jreleaser.png" width="16" height="16"/> **[jreleaser/jreleaser](https://github.com/jreleaser/jreleaser)** | [**#2130**](https://github.com/jreleaser/jreleaser/pull/2130) fix(deploy): clarify Maven Central polling log wording | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-| <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-projects/spring-batch](https://github.com/spring-projects/spring-batch)** | [**#5400**](https://github.com/spring-projects/spring-batch/pull/5400) Propagate step context to worker threads in ChunkTaskExecutorItemWriter | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-| <img src="https://github.com/OpenFeign.png" width="16" height="16"/> **[OpenFeign/feign](https://github.com/OpenFeign/feign)** | [**#3371**](https://github.com/OpenFeign/feign/pull/3371) Forward dismiss404 from CoroutineFeign builder to AsyncFeign | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
-|  | [**#3370**](https://github.com/OpenFeign/feign/pull/3370) Document metrics published by the micrometer module | ![merged](https://img.shields.io/badge/merged-2026.05-8957e5) |
+<img src="https://github.com/OpenAPITools.png" width="20" height="20"/>&nbsp; **[OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator)**
+- [**#23872**](https://github.com/OpenAPITools/openapi-generator/pull/23872) [Java][restclient] Build XmlMapper via builder when useJackson3=true ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+
+<img src="https://github.com/FasterXML.png" width="20" height="20"/>&nbsp; **[FasterXML/jackson-core](https://github.com/FasterXML/jackson-core)**
+- [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613) Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707) ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+- [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614) Preserve explicit "+" sign across buffer boundaries for "+0..." on async parser ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+
+<img src="https://github.com/spring-cloud.png" width="20" height="20"/>&nbsp; **[spring-cloud/spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)**
+- [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378) Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+
+<img src="https://github.com/jreleaser.png" width="20" height="20"/>&nbsp; **[jreleaser/jreleaser](https://github.com/jreleaser/jreleaser)**
+- [**#2130**](https://github.com/jreleaser/jreleaser/pull/2130) fix(deploy): clarify Maven Central polling log wording ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+
+<img src="https://github.com/spring-projects.png" width="20" height="20"/>&nbsp; **[spring-projects/spring-batch](https://github.com/spring-projects/spring-batch)**
+- [**#5400**](https://github.com/spring-projects/spring-batch/pull/5400) Propagate step context to worker threads in ChunkTaskExecutorItemWriter ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+
+<img src="https://github.com/OpenFeign.png" width="20" height="20"/>&nbsp; **[OpenFeign/feign](https://github.com/OpenFeign/feign)**
+- [**#3371**](https://github.com/OpenFeign/feign/pull/3371) Forward dismiss404 from CoroutineFeign builder to AsyncFeign ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
+- [**#3370**](https://github.com/OpenFeign/feign/pull/3370) Document metrics published by the micrometer module ![merged](https://img.shields.io/badge/merged-2026.05-8957e5)
 
 <!-- OSS-LIST:END -->
 

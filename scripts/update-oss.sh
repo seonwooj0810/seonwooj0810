@@ -16,9 +16,8 @@ TMP_SECTION=$(mktemp)
 {
   echo "<!-- OSS-LIST:START -->"
   echo ""
-  # repo별로 묶어 테이블로 렌더링. repo 순서는 가장 최근 머지 순,
-  # 같은 repo의 후속 PR은 Project 칸을 비워 그룹으로 보이게 한다.
-  # Project 칸에는 org 아바타 + repo 링크, Merged 칸에는 머지 배지를 넣는다.
+  # repo별로 묶어 "로고+repo 제목 줄 + PR 불릿" 형태로 렌더링한다.
+  # repo 순서는 가장 최근 머지 순, 각 PR 줄 끝에 merged 배지를 붙인다.
   awk -F'\t' '
     !($1 in seen) { order[++n]=$1; seen[$1]=1 }
     {
@@ -27,16 +26,14 @@ TMP_SECTION=$(mktemp)
       url[$1, cnt[$1]]=$4; dt[$1, cnt[$1]]=$5
     }
     END {
-      print "| Project | Pull Request | Merged |"
-      print "|:---|:---|:---:|"
       for (i=1; i<=n; i++) {
         r=order[i]
         org=r; sub(/\/.*/, "", org)
-        proj = "<img src=\"https://github.com/" org ".png\" width=\"16\" height=\"16\"/> **[" r "](https://github.com/" r ")**"
+        if (i > 1) print ""
+        print "<img src=\"https://github.com/" org ".png\" width=\"20\" height=\"20\"/>&nbsp; **[" r "](https://github.com/" r ")**"
         for (j=1; j<=cnt[r]; j++) {
-          t=ttl[r, j]; gsub(/\|/, "\\|", t)
           badge = "![merged](https://img.shields.io/badge/merged-" dt[r, j] "-8957e5)"
-          print "| " ((j==1) ? proj : "") " | [**#" num[r, j] "**](" url[r, j] ") " t " | " badge " |"
+          print "- [**#" num[r, j] "**](" url[r, j] ") " ttl[r, j] " " badge
         }
       }
     }
