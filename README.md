@@ -28,6 +28,8 @@
 
 <p>
   <img height="165" src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats" />
+</p>
+<p>
   <img height="165" src="./profile-summary-card-output/default/2-most-commit-language.svg" alt="Top Languages (by commit)" />
 </p>
 <p>
