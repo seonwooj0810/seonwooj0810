@@ -27,15 +27,8 @@
 ## 📊 Stats
 
 <p>
-  <img width="100%" src="./profile-summary-card-output/default/0-profile-details.svg" alt="Profile Details" />
-</p>
-<p>
   <img height="165" src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats" />
-  <img height="165" src="./profile-summary-card-output/default/1-repos-per-language.svg" alt="Top Languages (by repo)" />
-</p>
-<p>
   <img height="165" src="./profile-summary-card-output/default/2-most-commit-language.svg" alt="Top Languages (by commit)" />
-  <img height="165" src="./profile-summary-card-output/default/4-productive-time.svg" alt="Productive Time" />
 </p>
 <p>
   <img height="165" src="https://streak-stats.demolab.com?user=seonwooj0810&hide_border=true" alt="GitHub Streak" />
