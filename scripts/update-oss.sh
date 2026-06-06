@@ -16,24 +16,28 @@ TMP_SECTION=$(mktemp)
 {
   echo "<!-- OSS-LIST:START -->"
   echo ""
-  # repo별로 묶어 "로고+repo 제목 줄 + PR 불릿" 형태로 렌더링한다.
-  # repo 순서는 가장 최근 머지 순, 각 PR 줄 끝에 merged 배지를 붙인다.
+  # "로고 + repo + PR번호 + 제목(잘림)" 한 줄씩, 상단에 요약 줄을 붙여 렌더링한다.
+  # repo 순서는 가장 최근 머지 순. 잘린 제목 전체는 PR 번호 링크의 툴팁으로 노출한다.
   awk -F'\t' '
     !($1 in seen) { order[++n]=$1; seen[$1]=1 }
     {
+      total++
       cnt[$1]++
-      num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3
-      url[$1, cnt[$1]]=$4; dt[$1, cnt[$1]]=$5
+      num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3; url[$1, cnt[$1]]=$4
     }
     END {
+      print "**🔀 " total " PRs merged · " n " projects**"
+      print ""
       for (i=1; i<=n; i++) {
         r=order[i]
         org=r; sub(/\/.*/, "", org)
-        if (i > 1) print ""
-        print "<img src=\"https://github.com/" org ".png\" width=\"20\" height=\"20\"/>&nbsp; **[" r "](https://github.com/" r ")**"
+        short=r; sub(/^[^\/]*\//, "", short)
+        logo = "<img src=\"https://github.com/" org ".png\" width=\"18\" height=\"18\"/>"
         for (j=1; j<=cnt[r]; j++) {
-          badge = "![merged](https://img.shields.io/badge/merged-" dt[r, j] "-8957e5)"
-          print "- [**#" num[r, j] "**](" url[r, j] ") " ttl[r, j] " " badge
+          full=ttl[r, j]; gsub(/"/, "\\&quot;", full)
+          t=ttl[r, j]
+          if (length(t) > 56) t = substr(t, 1, 55) "…"
+          print logo " **[" short "](https://github.com/" r ")** [**#" num[r, j] "**](" url[r, j] " \"" full "\") " t "<br>"
         }
       }
     }
