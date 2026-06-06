@@ -3,8 +3,6 @@
 **Java/Spring 기반 백엔드 엔지니어**입니다. 매일 학습하고 기록하며, 동작 원리를 밑바닥부터 이해하는 것을 좋아합니다.
 
 - 📝 매일 [TIL](https://github.com/seonwooj0810/TIL) 작성 — Java/Spring/CS 심화 학습 노트
-- 🧠 [Java로 미니 LLM 밑바닥부터 구현](https://github.com/seonwooj0810/llm-study) — 토크나이저·어텐션·학습 루프
-- 🧱 [Spring Modulith 모듈러 모놀리스 실험](https://github.com/seonwooj0810/spring-modulith-example)
 
 ## 🌱 Open Source Contributions
 
