@@ -15,17 +15,30 @@ gh api "search/issues?q=author:${USERNAME}+type:pr+is:merged+-user:${USERNAME}&p
 TMP_SECTION=$(mktemp)
 {
   echo "<!-- OSS-LIST:START -->"
-  # repo별로 묶고, repo 순서는 가장 최근 머지 순
+  echo ""
+  # repo별로 묶어 테이블로 렌더링. repo 순서는 가장 최근 머지 순,
+  # 같은 repo의 후속 PR은 Project 칸을 비워 그룹으로 보이게 한다.
   awk -F'\t' '
     !($1 in seen) { order[++n]=$1; seen[$1]=1 }
-    { items[$1] = items[$1] " · [#" $2 "](" $4 ") " $3 " `" $5 "`" }
+    {
+      cnt[$1]++
+      num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3
+      url[$1, cnt[$1]]=$4; dt[$1, cnt[$1]]=$5
+    }
     END {
+      print "| Project | PR | Merged |"
+      print "|---|---|:---:|"
       for (i=1; i<=n; i++) {
-        r=order[i]; line=items[r]; sub(/^ · /, "", line)
-        print "- **" r "** — " line
+        r=order[i]
+        for (j=1; j<=cnt[r]; j++) {
+          t=ttl[r, j]; gsub(/\|/, "\\|", t)
+          proj = (j==1) ? "**" r "**" : ""
+          print "| " proj " | [#" num[r, j] "](" url[r, j] ") " t " | `" dt[r, j] "` |"
+        }
       }
     }
   ' "$TSV"
+  echo ""
   echo "<!-- OSS-LIST:END -->"
 } > "$TMP_SECTION"
 
