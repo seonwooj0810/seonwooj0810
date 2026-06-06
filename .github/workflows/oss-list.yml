@@ -1,0 +1,32 @@
+name: Update OSS Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 00:00 UTC (09:00 KST)
+  workflow_dispatch: # 수동 실행용
+
+permissions:
+  contents: write
+
+jobs:
+  update-oss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 머지된 OSS PR 목록으로 README 갱신
+        run: ./scripts/update-oss.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 변경 시 커밋·푸시
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: OSS 기여 목록 자동 갱신"
+            git push
+          else
+            echo "변경 없음 — 커밋 생략"
+          fi
