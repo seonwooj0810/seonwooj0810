@@ -9,7 +9,7 @@ EXCLUDE_RE='to-be-healthy|hanghae|PKSSUN|next-step|jinho-yoo-jack'
 
 TSV=$(mktemp)
 gh api "search/issues?q=author:${USERNAME}+type:pr+is:merged+-user:${USERNAME}&per_page=100" \
-  --jq '.items | sort_by(.pull_request.merged_at) | reverse | .[] | [(.repository_url | sub(".*/repos/"; "")), .number, .title, .html_url] | @tsv' \
+  --jq '.items | sort_by(.pull_request.merged_at) | reverse | .[] | [(.repository_url | sub(".*/repos/"; "")), .number, .title, .html_url, (.pull_request.merged_at | .[0:7] | sub("-"; "."))] | @tsv' \
   | grep -Ev "$EXCLUDE_RE" > "$TSV" || true
 
 TMP_SECTION=$(mktemp)
@@ -18,7 +18,7 @@ TMP_SECTION=$(mktemp)
   # repo별로 묶고, repo 순서는 가장 최근 머지 순
   awk -F'\t' '
     !($1 in seen) { order[++n]=$1; seen[$1]=1 }
-    { items[$1] = items[$1] " · [#" $2 "](" $4 ") " $3 }
+    { items[$1] = items[$1] " · [#" $2 "](" $4 ") " $3 " `" $5 "`" }
     END {
       for (i=1; i<=n; i++) {
         r=order[i]; line=items[r]; sub(/^ · /, "", line)

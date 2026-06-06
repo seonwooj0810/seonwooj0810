@@ -6,19 +6,20 @@
 - 🧠 [Java로 미니 LLM 밑바닥부터 구현](https://github.com/seonwooj0810/llm-study) — 토크나이저·어텐션·학습 루프
 - 🧱 [Spring Modulith 모듈러 모놀리스 실험](https://github.com/seonwooj0810/spring-modulith-example)
 
+📫 seonwooj0810@gmail.com · ✍️ [velog.io/@jungseonw00](https://velog.io/@jungseonw00)
+
 ## 🌱 Open Source Contributions
 
 <!-- OSS-LIST:START -->
-- **OpenAPITools/openapi-generator** — [#23872](https://github.com/OpenAPITools/openapi-generator/pull/23872) [Java][restclient] Build XmlMapper via builder when useJackson3=true
-- **FasterXML/jackson-core** — [#1613](https://github.com/FasterXML/jackson-core/pull/1613) Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707) · [#1614](https://github.com/FasterXML/jackson-core/pull/1614) Preserve explicit "+" sign across buffer boundaries for "+0..." on async parser
-- **spring-cloud/spring-cloud-openfeign** — [#1378](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378) Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar
-- **jreleaser/jreleaser** — [#2130](https://github.com/jreleaser/jreleaser/pull/2130) fix(deploy): clarify Maven Central polling log wording
-- **spring-projects/spring-batch** — [#5400](https://github.com/spring-projects/spring-batch/pull/5400) Propagate step context to worker threads in ChunkTaskExecutorItemWriter
-- **OpenFeign/feign** — [#3371](https://github.com/OpenFeign/feign/pull/3371) Forward dismiss404 from CoroutineFeign builder to AsyncFeign · [#3370](https://github.com/OpenFeign/feign/pull/3370) Document metrics published by the micrometer module
+- **OpenAPITools/openapi-generator** — [#23872](https://github.com/OpenAPITools/openapi-generator/pull/23872) [Java][restclient] Build XmlMapper via builder when useJackson3=true `2026.05`
+- **FasterXML/jackson-core** — [#1613](https://github.com/FasterXML/jackson-core/pull/1613) Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707) `2026.05` · [#1614](https://github.com/FasterXML/jackson-core/pull/1614) Preserve explicit "+" sign across buffer boundaries for "+0..." on async parser `2026.05`
+- **spring-cloud/spring-cloud-openfeign** — [#1378](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378) Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar `2026.05`
+- **jreleaser/jreleaser** — [#2130](https://github.com/jreleaser/jreleaser/pull/2130) fix(deploy): clarify Maven Central polling log wording `2026.05`
+- **spring-projects/spring-batch** — [#5400](https://github.com/spring-projects/spring-batch/pull/5400) Propagate step context to worker threads in ChunkTaskExecutorItemWriter `2026.05`
+- **OpenFeign/feign** — [#3371](https://github.com/OpenFeign/feign/pull/3371) Forward dismiss404 from CoroutineFeign builder to AsyncFeign `2026.05` · [#3370](https://github.com/OpenFeign/feign/pull/3370) Document metrics published by the micrometer module `2026.05`
 <!-- OSS-LIST:END -->
 
 → [전체 PR 보기](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810&type=pullrequests)
-
 
 ## ✍️ Latest Posts
 
