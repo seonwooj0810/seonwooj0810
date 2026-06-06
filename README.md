@@ -32,11 +32,6 @@
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 
-## 📊 Stats
-
-<p>
-  <img height="165" src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats" />
-</p>
 
 ## ✍️ Latest Posts
 
@@ -49,8 +44,3 @@
 - [Kafka acks=all 과 min.insync.replicas — &#39;한 번도 안 잃는다&#39;는 보장은 어디서 오나](https://velog.io/@jungseonw00/kafka-acks-all-min-insync-replicas)
 - [Kafka Exactly-Once Semantics 정리: 멱등 프로듀서와 트랜잭션은 무엇을 보장하는가](https://velog.io/@jungseonw00/kafka-exactly-once-semantics)
 <!-- BLOG-POST-LIST:END -->
-
-## 🔗 Links
-
-- ✍️ Blog: [velog.io/@jungseonw00](https://velog.io/@jungseonw00)
-- 🤖 Made tools: [velog-mcp-go](https://github.com/seonwooj0810/velog-mcp-go) · [velog-mcp-server](https://github.com/seonwooj0810/velog-mcp-server) — Velog용 MCP 서버
