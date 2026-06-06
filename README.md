@@ -6,8 +6,6 @@
 - 🧠 [Java로 미니 LLM 밑바닥부터 구현](https://github.com/seonwooj0810/llm-study) — 토크나이저·어텐션·학습 루프
 - 🧱 [Spring Modulith 모듈러 모놀리스 실험](https://github.com/seonwooj0810/spring-modulith-example)
 
-📫 seonwooj0810@gmail.com · ✍️ [velog.io/@jungseonw00](https://velog.io/@jungseonw00)
-
 ## 🌱 Open Source Contributions
 
 <!-- OSS-LIST:START -->
