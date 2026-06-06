@@ -19,7 +19,7 @@ jobs:
         with:
           feed_list: "https://v2.velog.io/rss/@jungseonw00"
           max_post_count: 5
-          template: "- $date — [$title]($url)$newline"
+          template: "$newline- $date — [$title]($url)"
           date_format: "yyyy-mm-dd"
           commit_message: "docs: 최신 블로그 글 갱신"
           committer_username: "github-actions[bot]"
