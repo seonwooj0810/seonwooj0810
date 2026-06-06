@@ -29,12 +29,6 @@
 <p>
   <img height="165" src="./profile-summary-card-output/default/3-stats.svg" alt="GitHub Stats" />
 </p>
-<p>
-  <img height="165" src="./profile-summary-card-output/default/2-most-commit-language.svg" alt="Top Languages (by commit)" />
-</p>
-<p>
-  <img height="165" src="https://streak-stats.demolab.com?user=seonwooj0810&hide_border=true" alt="GitHub Streak" />
-</p>
 
 ## ✍️ Latest Posts
 
@@ -52,11 +46,3 @@
 
 - ✍️ Blog: [velog.io/@jungseonw00](https://velog.io/@jungseonw00)
 - 🤖 Made tools: [velog-mcp-go](https://github.com/seonwooj0810/velog-mcp-go) · [velog-mcp-server](https://github.com/seonwooj0810/velog-mcp-server) — Velog용 MCP 서버
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seonwooj0810/seonwooj0810/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/seonwooj0810/seonwooj0810/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/seonwooj0810/seonwooj0810/output/github-snake.svg" />
-</picture>
