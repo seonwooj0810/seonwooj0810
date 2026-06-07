@@ -28,8 +28,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-07 — [CompletableFuture는 콜백을 어느 스레드에서 실행하는가](https://velog.io/@jungseonw00/java-completablefuture-thread-model)
 - 2026-06-07 — [인증 서비스 로그를 감사해보니 — 민감정보가 새는 세 가지 경로](https://velog.io/@jungseonw00/auth-service-log-audit-sensitive-data)
 - 2026-06-07 — [DB가 2개인 Spring Boot에 Testcontainers 통합 테스트 깔기 — 그리고 커버리지 래칫](https://velog.io/@jungseonw00/testcontainers-dual-db-coverage-ratchet)
 - 2026-06-07 — [GKE Autopilot에서 월 $615 아끼기 — 실측 데이터로 컨테이너 최적화하기](https://velog.io/@jungseonw00/gke-autopilot-cost-optimization)
-- 2026-06-06 — [synchronized와 ReentrantLock은 내부에서 무엇이 다른가](https://velog.io/@jungseonw00/java-synchronized-vs-reentrantlock)
-- 2026-06-05 — [PermGen은 왜 Metaspace로 바뀌었나](https://velog.io/@jungseonw00/jvm-metaspace-vs-permgen)<!-- BLOG-POST-LIST:END -->
+- 2026-06-06 — [synchronized와 ReentrantLock은 내부에서 무엇이 다른가](https://velog.io/@jungseonw00/java-synchronized-vs-reentrantlock)<!-- BLOG-POST-LIST:END -->
