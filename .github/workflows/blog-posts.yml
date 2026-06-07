@@ -2,7 +2,7 @@ name: Latest Blog Posts
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 00:00 UTC (09:00 KST)
+    - cron: "0 0,9,15 * * *" # 09:00 / 18:00 / 00:00 KST
   workflow_dispatch: # 수동 실행용
 
 permissions:
@@ -12,7 +12,7 @@ jobs:
   update-posts:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: velog 최신 글로 README 갱신
         uses: gautamkrishnar/blog-post-workflow@v1
