@@ -28,8 +28,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-07 — [GKE Autopilot에서 월 $615 아끼기 — 실측 데이터로 컨테이너 최적화하기](https://velog.io/@jungseonw00/gke-autopilot-cost-optimization)
 - 2026-06-06 — [synchronized와 ReentrantLock은 내부에서 무엇이 다른가](https://velog.io/@jungseonw00/java-synchronized-vs-reentrantlock)
 - 2026-06-05 — [JVM 메모리 정리: Metaspace는 PermGen과 무엇이 다른가](https://velog.io/@jungseonw00/jvm-metaspace-vs-permgen)
 - 2026-06-04 — [JVM GC 정리: G1과 ZGC는 무엇이 다른가](https://velog.io/@jungseonw00/jvm-gc-g1-vs-zgc)
-- 2026-06-03 — [Kafka acks=all 과 min.insync.replicas — &#39;한 번도 안 잃는다&#39;는 보장은 어디서 오나](https://velog.io/@jungseonw00/kafka-acks-all-min-insync-replicas)
-- 2026-06-02 — [Kafka Exactly-Once Semantics 정리: 멱등 프로듀서와 트랜잭션은 무엇을 보장하는가](https://velog.io/@jungseonw00/kafka-exactly-once-semantics)<!-- BLOG-POST-LIST:END -->
+- 2026-06-03 — [Kafka acks=all 과 min.insync.replicas — &#39;한 번도 안 잃는다&#39;는 보장은 어디서 오나](https://velog.io/@jungseonw00/kafka-acks-all-min-insync-replicas)<!-- BLOG-POST-LIST:END -->
