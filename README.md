@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 8 PRs merged · 6 projects**
+**🔀 9 PRs merged · 7 projects**
 
+<img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23872**](https://github.com/OpenAPITools/openapi-generator/pull/23872 "[Java][restclient] Build XmlMapper via builder when useJackson3=true") [Java][restclient] Build XmlMapper via builder when use…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…<br>
