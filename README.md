@@ -29,8 +29,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-09 — [Outbox는 Polling과 CDC에서 무엇을 맞바꾸는가](https://velog.io/@jungseonw00/outbox-polling-vs-cdc)
+- 2026-06-09 — [네트워크가 멀쩡할 때도 분산 시스템은 무엇을 맞바꾸는가 — CAP에서 PACELC로](https://velog.io/@jungseonw00/cap-theorem-and-pacelc)
 - 2026-06-08 — [Reactor Netty는 적은 스레드로 어떻게 수천 연결을 받아내는가 — EventLoop 모델](https://velog.io/@jungseonw00/reactor-netty-event-loop-model)
 - 2026-06-07 — [CompletableFuture는 콜백을 어느 스레드에서 실행하는가](https://velog.io/@jungseonw00/java-completablefuture-thread-model)
-- 2026-06-07 — [인증 서비스 로그를 감사해보니 — 민감정보가 새는 세 가지 경로](https://velog.io/@jungseonw00/auth-service-log-audit-sensitive-data)
-- 2026-06-07 — [DB가 2개인 Spring Boot에 Testcontainers 통합 테스트 깔기 — 그리고 커버리지 래칫](https://velog.io/@jungseonw00/testcontainers-dual-db-coverage-ratchet)
-- 2026-06-07 — [GKE Autopilot에서 월 $615 아끼기 — 실측 데이터로 컨테이너 최적화하기](https://velog.io/@jungseonw00/gke-autopilot-cost-optimization)<!-- BLOG-POST-LIST:END -->
+- 2026-06-07 — [인증 서비스 로그를 감사해보니 — 민감정보가 새는 세 가지 경로](https://velog.io/@jungseonw00/auth-service-log-audit-sensitive-data)<!-- BLOG-POST-LIST:END -->
