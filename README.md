@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 9 PRs merged · 7 projects**
+**🔀 10 PRs merged · 8 projects**
 
+<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[querydsl](https://github.com/OpenFeign/querydsl)** [**#1791**](https://github.com/OpenFeign/querydsl/pull/1791 "Render object arrays as Kotlin Array<T> in querydsl-kotlin-codegen (#1790)") Render object arrays as Kotlin Array<T> in querydsl-kot…<br>
 <img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23872**](https://github.com/OpenAPITools/openapi-generator/pull/23872 "[Java][restclient] Build XmlMapper via builder when useJackson3=true") [Java][restclient] Build XmlMapper via builder when use…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…<br>
