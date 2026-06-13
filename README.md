@@ -33,8 +33,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-13 — [HTTP/3는 왜 TCP 대신 QUIC 위에서 동작할까](https://velog.io/@jungseonw00/http3-quic-key-differences)
 - 2026-06-12 — [HTTP/2는 HOL blocking을 정말 없앴을까](https://velog.io/@jungseonw00/http2-multiplexing-hol-blocking)
 - 2026-06-12 — [gRPC와 REST는 무엇을 맞바꾸는가](https://velog.io/@jungseonw00/grpc-vs-rest-tradeoffs)
 - 2026-06-11 — [Idempotency Key는 중복 요청을 어떻게 한 번의 작업으로 묶는가](https://velog.io/@jungseonw00/idempotency-key-design-patterns)
-- 2026-06-10 — [Saga Choreography와 Orchestration은 무엇을 맞바꾸는가](https://velog.io/@jungseonw00/saga-choreography-vs-orchestration)
-- 2026-06-09 — [Outbox는 Polling과 CDC에서 무엇을 맞바꾸는가](https://velog.io/@jungseonw00/outbox-polling-vs-cdc)<!-- BLOG-POST-LIST:END -->
+- 2026-06-10 — [Saga Choreography와 Orchestration은 무엇을 맞바꾸는가](https://velog.io/@jungseonw00/saga-choreography-vs-orchestration)<!-- BLOG-POST-LIST:END -->
