@@ -8,8 +8,10 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 14 PRs merged · 8 projects**
+**🔀 15 PRs merged · 8 projects**
 
+<img src="https://github.com/spring-cloud.png" width="18" height="18"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…<br>
+<img src="https://github.com/spring-cloud.png" width="18" height="18"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24017**](https://github.com/OpenAPITools/openapi-generator/pull/24017 "[Java][vertx] Apply Vert.x pool defaults in buildWebClient for useVertx5 (#24015)") [Java][vertx] Apply Vert.x pool defaults in buildWebCli…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23872**](https://github.com/OpenAPITools/openapi-generator/pull/23872 "[Java][restclient] Build XmlMapper via builder when useJackson3=true") [Java][restclient] Build XmlMapper via builder when use…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3406**](https://github.com/OpenFeign/feign/pull/3406 "Fix feign-core test compilation broken by removed Request.create overload") Fix feign-core test compilation broken by removed Reque…<br>
@@ -21,7 +23,6 @@
 <img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…<br>
-<img src="https://github.com/spring-cloud.png" width="18" height="18"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…<br>
 <img src="https://github.com/jreleaser.png" width="18" height="18"/> **[jreleaser](https://github.com/jreleaser/jreleaser)** [**#2130**](https://github.com/jreleaser/jreleaser/pull/2130 "fix(deploy): clarify Maven Central polling log wording") fix(deploy): clarify Maven Central polling log wording<br>
 <img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** [**#5400**](https://github.com/spring-projects/spring-batch/pull/5400 "Propagate step context to worker threads in ChunkTaskExecutorItemWriter") Propagate step context to worker threads in ChunkTaskEx…<br>
 
