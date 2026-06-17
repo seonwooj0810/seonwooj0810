@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 15 PRs merged · 8 projects**
+**🔀 16 PRs merged · 9 projects**
 
+<img src="https://github.com/resilience4j.png" width="18" height="18"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …<br>
 <img src="https://github.com/spring-cloud.png" width="18" height="18"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…<br>
 <img src="https://github.com/spring-cloud.png" width="18" height="18"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24017**](https://github.com/OpenAPITools/openapi-generator/pull/24017 "[Java][vertx] Apply Vert.x pool defaults in buildWebClient for useVertx5 (#24015)") [Java][vertx] Apply Vert.x pool defaults in buildWebCli…<br>
