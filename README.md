@@ -37,8 +37,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-19 — [volatile을 붙이면 무엇이 보이고, 무엇은 여전히 깨지는가](https://velog.io/@jungseonw00/java-volatile-happens-before)
 - 2026-06-16 — [CORS preflight는 왜 OPTIONS를 먼저 보내는가](https://velog.io/@jungseonw00/cors-preflight-behavior)
 - 2026-06-15 — [JWT는 왜 세 조각으로 나뉘고, 서버는 무엇을 검증하는가](https://velog.io/@jungseonw00/jwt-structure-validation-flow)
 - 2026-06-14 — [OAuth 2.0 grant type은 왜 네 가지로 나뉘었는가](https://velog.io/@jungseonw00/oauth2-grant-types)
-- 2026-06-13 — [HTTP/3는 왜 TCP 대신 QUIC 위에서 동작할까](https://velog.io/@jungseonw00/http3-quic-key-differences)
-- 2026-06-12 — [HTTP/2는 HOL blocking을 정말 없앴을까](https://velog.io/@jungseonw00/http2-multiplexing-hol-blocking)<!-- BLOG-POST-LIST:END -->
+- 2026-06-13 — [HTTP/3는 왜 TCP 대신 QUIC 위에서 동작할까](https://velog.io/@jungseonw00/http3-quic-key-differences)<!-- BLOG-POST-LIST:END -->
