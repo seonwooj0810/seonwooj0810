@@ -8,8 +8,10 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 17 PRs merged · 9 projects**
+**🔀 19 PRs merged · 9 projects**
 
+<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3382**](https://github.com/OpenFeign/feign/pull/3382 "Preserve delegate content type for multipart parameters") Preserve delegate content type for multipart parameters<br>
+<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3422**](https://github.com/OpenFeign/feign/pull/3422 "Make Expressions max length configurable (fixes #2916)") Make Expressions max length configurable (fixes #2916)<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3419**](https://github.com/OpenFeign/feign/pull/3419 "Honor jdk.httpclient.allowRestrictedHeaders in Http2Client (#2975)") Honor jdk.httpclient.allowRestrictedHeaders in Http2Cli…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3406**](https://github.com/OpenFeign/feign/pull/3406 "Fix feign-core test compilation broken by removed Request.create overload") Fix feign-core test compilation broken by removed Reque…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3394**](https://github.com/OpenFeign/feign/pull/3394 "Avoid ClassLoader leak from static default async executor (#3178)") Avoid ClassLoader leak from static default async execut…<br>
