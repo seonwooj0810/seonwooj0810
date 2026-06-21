@@ -39,8 +39,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-21 — [Hibernate 배치 페칭은 N+1 쿼리를 어떻게 줄이는가](https://velog.io/@jungseonw00/hibernate-batch-fetching-n-plus-one)
 - 2026-06-20 — [Spring Boot 자동 구성은 어떤 조건을 먼저 평가하는가](https://velog.io/@jungseonw00/spring-boot-conditional-evaluation-report)
 - 2026-06-19 — [JVM 세이프포인트는 stop-the-world 지연을 어디서 늘리는가](https://velog.io/@jungseonw00/jvm-safepoint-stw-latency)
 - 2026-06-19 — [volatile을 붙이면 무엇이 보이고, 무엇은 여전히 깨지는가](https://velog.io/@jungseonw00/java-volatile-happens-before)
-- 2026-06-16 — [CORS preflight는 왜 OPTIONS를 먼저 보내는가](https://velog.io/@jungseonw00/cors-preflight-behavior)
-- 2026-06-15 — [JWT는 왜 세 조각으로 나뉘고, 서버는 무엇을 검증하는가](https://velog.io/@jungseonw00/jwt-structure-validation-flow)<!-- BLOG-POST-LIST:END -->
+- 2026-06-16 — [CORS preflight는 왜 OPTIONS를 먼저 보내는가](https://velog.io/@jungseonw00/cors-preflight-behavior)<!-- BLOG-POST-LIST:END -->
