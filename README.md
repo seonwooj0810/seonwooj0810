@@ -40,8 +40,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-23 — [TCP 송신 속도는 rwnd가 정하지 않는다 — cwnd 상태 머신과 AIMD](https://velog.io/@jungseonw00/tcp-congestion-control-cwnd)
 - 2026-06-22 — [HPA는 왜 파드를 한 번에 2배로 늘릴 수 있는가 — desiredReplicas 비례 제어와 비대칭 스케일링](https://velog.io/@jungseonw00/kubernetes-hpa-scaling-algorithm)
 - 2026-06-21 — [Hibernate 배치 페칭은 N+1 쿼리를 어떻게 줄이는가](https://velog.io/@jungseonw00/hibernate-batch-fetching-n-plus-one)
 - 2026-06-20 — [Spring Boot 자동 구성은 어떤 조건을 먼저 평가하는가](https://velog.io/@jungseonw00/spring-boot-conditional-evaluation-report)
-- 2026-06-19 — [JVM 세이프포인트는 stop-the-world 지연을 어디서 늘리는가](https://velog.io/@jungseonw00/jvm-safepoint-stw-latency)
-- 2026-06-19 — [volatile을 붙이면 무엇이 보이고, 무엇은 여전히 깨지는가](https://velog.io/@jungseonw00/java-volatile-happens-before)<!-- BLOG-POST-LIST:END -->
+- 2026-06-19 — [JVM 세이프포인트는 stop-the-world 지연을 어디서 늘리는가](https://velog.io/@jungseonw00/jvm-safepoint-stw-latency)<!-- BLOG-POST-LIST:END -->
