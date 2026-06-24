@@ -42,8 +42,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-24 — [JVM은 왜 같은 메서드를 두 번 컴파일하는가 — C1·C2 티어드 컴파일레이션과 역최적화](https://velog.io/@jungseonw00/jvm-tiered-compilation-c1-c2)
 - 2026-06-23 — [TCP 송신 속도는 rwnd가 정하지 않는다 — cwnd 상태 머신과 AIMD](https://velog.io/@jungseonw00/tcp-congestion-control-cwnd)
 - 2026-06-22 — [HPA는 왜 파드를 한 번에 2배로 늘릴 수 있는가 — desiredReplicas 비례 제어와 비대칭 스케일링](https://velog.io/@jungseonw00/kubernetes-hpa-scaling-algorithm)
 - 2026-06-21 — [Hibernate 배치 페칭은 N+1 쿼리를 어떻게 줄이는가](https://velog.io/@jungseonw00/hibernate-batch-fetching-n-plus-one)
-- 2026-06-20 — [Spring Boot 자동 구성은 어떤 조건을 먼저 평가하는가](https://velog.io/@jungseonw00/spring-boot-conditional-evaluation-report)
-- 2026-06-19 — [JVM 세이프포인트는 stop-the-world 지연을 어디서 늘리는가](https://velog.io/@jungseonw00/jvm-safepoint-stw-latency)<!-- BLOG-POST-LIST:END -->
+- 2026-06-20 — [Spring Boot 자동 구성은 어떤 조건을 먼저 평가하는가](https://velog.io/@jungseonw00/spring-boot-conditional-evaluation-report)<!-- BLOG-POST-LIST:END -->
