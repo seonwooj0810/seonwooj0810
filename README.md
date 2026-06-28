@@ -49,8 +49,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-06-28 — [commit해도 데이터 파일은 즉시 안 바뀐다 — PostgreSQL WAL과 체크포인트가 durability를 지키는 법](https://velog.io/@jungseonw00/postgresql-wal-and-checkpoint)
 - 2026-06-27 — [락도 공유 변수도 없는데 왜 느려지는가 — False Sharing과 @Contended](https://velog.io/@jungseonw00/false-sharing-and-contended)
 - 2026-06-25 — [Raft에서 가장 긴 로그를 가진 노드가 리더가 되지 못하는 이유](https://velog.io/@jungseonw00/raft-leader-election-log-safety)
 - 2026-06-24 — [JVM은 왜 같은 메서드를 두 번 컴파일하는가 — C1·C2 티어드 컴파일레이션과 역최적화](https://velog.io/@jungseonw00/jvm-tiered-compilation-c1-c2)
-- 2026-06-23 — [TCP 송신 속도는 rwnd가 정하지 않는다 — cwnd 상태 머신과 AIMD](https://velog.io/@jungseonw00/tcp-congestion-control-cwnd)
-- 2026-06-22 — [HPA는 왜 파드를 한 번에 2배로 늘릴 수 있는가 — desiredReplicas 비례 제어와 비대칭 스케일링](https://velog.io/@jungseonw00/kubernetes-hpa-scaling-algorithm)<!-- BLOG-POST-LIST:END -->
+- 2026-06-23 — [TCP 송신 속도는 rwnd가 정하지 않는다 — cwnd 상태 머신과 AIMD](https://velog.io/@jungseonw00/tcp-congestion-control-cwnd)<!-- BLOG-POST-LIST:END -->
