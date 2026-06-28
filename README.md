@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 28 PRs merged · 11 projects**
+**🔀 29 PRs merged · 12 projects**
 
+<img src="https://github.com/mybatis.png" width="18" height="18"/> **[spring](https://github.com/mybatis/spring)** [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1624**](https://github.com/FasterXML/jackson-core/pull/1624 "Fix #1622: size base64 encoding buffer from binary length hint") Fix #1622: size base64 encoding buffer from binary leng…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…<br>
