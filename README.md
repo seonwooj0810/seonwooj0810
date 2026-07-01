@@ -51,8 +51,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-01 — [ThreadLocal 키가 WeakReference인데 왜 메모리가 새는가](https://velog.io/@jungseonw00/threadlocal-internals-memory-leak)
 - 2026-06-30 — [Kafka는 수억 건 중 특정 offset을 어떻게 O&lpar;log n&rpar;에 찾는가 — 로그 세그먼트와 sparse index](https://velog.io/@jungseonw00/kafka-log-segment-sparse-index)
 - 2026-06-29 — [8코어에서 limits.cpu 1은 12.5ms 만에 바닥난다 — Kubernetes CFS throttling](https://velog.io/@jungseonw00/kubernetes-cpu-limit-cfs-throttling)
 - 2026-06-28 — [commit해도 데이터 파일은 즉시 안 바뀐다 — PostgreSQL WAL과 체크포인트가 durability를 지키는 법](https://velog.io/@jungseonw00/postgresql-wal-and-checkpoint)
-- 2026-06-27 — [락도 공유 변수도 없는데 왜 느려지는가 — False Sharing과 @Contended](https://velog.io/@jungseonw00/false-sharing-and-contended)
-- 2026-06-25 — [Raft에서 가장 긴 로그를 가진 노드가 리더가 되지 못하는 이유](https://velog.io/@jungseonw00/raft-leader-election-log-safety)<!-- BLOG-POST-LIST:END -->
+- 2026-06-27 — [락도 공유 변수도 없는데 왜 느려지는가 — False Sharing과 @Contended](https://velog.io/@jungseonw00/false-sharing-and-contended)<!-- BLOG-POST-LIST:END -->
