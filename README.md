@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 30 PRs merged · 12 projects**
+**🔀 31 PRs merged · 12 projects**
 
+<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24047**](https://github.com/OpenAPITools/openapi-generator/pull/24047 "[kotlin] Add @get:JsonValue to nested Jackson enums (#23886)") [kotlin] Add @get:JsonValue to nested Jackson enums (#2…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23982**](https://github.com/OpenAPITools/openapi-generator/pull/23982 "[typescript-fetch] Fix TS2590 in instanceOf guards for wide sanitized-name models (#23980)") [typescript-fetch] Fix TS2590 in instanceOf guards for …<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24127**](https://github.com/OpenAPITools/openapi-generator/pull/24127 "[Java] Skip wildcard media types when selecting request Content-Type (#24118)") [Java] Skip wildcard media types when selecting request…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23971**](https://github.com/OpenAPITools/openapi-generator/pull/23971 "[Java] Render object default for composed ($ref + default) schemas (#23795)") [Java] Render object default for composed ($ref + defau…<br>
