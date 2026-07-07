@@ -53,8 +53,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-07 — [노드를 하나 늘렸을 뿐인데 캐시가 거의 다 miss나는 이유 — 일관된 해싱과 가상 노드](https://velog.io/@jungseonw00/consistent-hashing-virtual-nodes)
 - 2026-07-06 — [버킷 경계를 바꾸면 p99가 출렁이는 이유 — histogram_quantile은 무엇을 계산하나](https://velog.io/@jungseonw00/prometheus-histogram-quantile)
 - 2026-07-05 — [ping도 안 되는 ClusterIP로 보낸 패킷은 어떻게 Pod에 닿는가 — kube-proxy iptables 모드](https://velog.io/@jungseonw00/kube-proxy-iptables-clusterip-routing)
 - 2026-07-04 — [작은 write 두 번에 왜 40ms가 규칙적으로 찍히는가 — Nagle과 delayed ACK의 교착](https://velog.io/@jungseonw00/nagle-delayed-ack-40ms)
-- 2026-07-03 — [락을 걸지 않는데 어떻게 동시 수정 충돌을 잡나 — JPA 낙관적 락&lpar;@Version&rpar;](https://velog.io/@jungseonw00/jpa-optimistic-locking-version)
-- 2026-07-02 — [필드 주입 순환참조는 뜨는데 생성자 주입은 왜 실패하는가 — Spring 3-level 캐시](https://velog.io/@jungseonw00/spring-circular-dependency-three-level-cache)<!-- BLOG-POST-LIST:END -->
+- 2026-07-03 — [락을 걸지 않는데 어떻게 동시 수정 충돌을 잡나 — JPA 낙관적 락&lpar;@Version&rpar;](https://velog.io/@jungseonw00/jpa-optimistic-locking-version)<!-- BLOG-POST-LIST:END -->
