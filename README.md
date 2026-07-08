@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 33 PRs merged · 13 projects**
+**🔀 34 PRs merged · 13 projects**
 
+<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24218**](https://github.com/OpenAPITools/openapi-generator/pull/24218 "fix(kotlin-server): use valid Kotlin String conversions for ktor delegate header params") fix(kotlin-server): use valid Kotlin String conversions…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24062**](https://github.com/OpenAPITools/openapi-generator/pull/24062 "[Go] Honor generateUnmarshalJSON=false for oneOf models") [Go] Honor generateUnmarshalJSON=false for oneOf models<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24047**](https://github.com/OpenAPITools/openapi-generator/pull/24047 "[kotlin] Add @get:JsonValue to nested Jackson enums (#23886)") [kotlin] Add @get:JsonValue to nested Jackson enums (#2…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23982**](https://github.com/OpenAPITools/openapi-generator/pull/23982 "[typescript-fetch] Fix TS2590 in instanceOf guards for wide sanitized-name models (#23980)") [typescript-fetch] Fix TS2590 in instanceOf guards for …<br>
