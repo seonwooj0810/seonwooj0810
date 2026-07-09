@@ -54,8 +54,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-09 — [같은 이미지로 컨테이너를 수십 개 띄워도 디스크가 안 터지는 이유 — overlay2와 copy_up](https://velog.io/@jungseonw00/docker-overlay2-copy-on-write)
 - 2026-07-08 — [블로킹 호출은 왜 가상 스레드의 캐리어를 놓아주는가 — 마운트·언마운트와 pinning](https://velog.io/@jungseonw00/java-virtual-threads-mount-unmount-pinning)
 - 2026-07-07 — [노드를 하나 늘렸을 뿐인데 캐시가 거의 다 miss나는 이유 — 일관된 해싱과 가상 노드](https://velog.io/@jungseonw00/consistent-hashing-virtual-nodes)
 - 2026-07-06 — [버킷 경계를 바꾸면 p99가 출렁이는 이유 — histogram_quantile은 무엇을 계산하나](https://velog.io/@jungseonw00/prometheus-histogram-quantile)
-- 2026-07-05 — [ping도 안 되는 ClusterIP로 보낸 패킷은 어떻게 Pod에 닿는가 — kube-proxy iptables 모드](https://velog.io/@jungseonw00/kube-proxy-iptables-clusterip-routing)
-- 2026-07-04 — [작은 write 두 번에 왜 40ms가 규칙적으로 찍히는가 — Nagle과 delayed ACK의 교착](https://velog.io/@jungseonw00/nagle-delayed-ack-40ms)<!-- BLOG-POST-LIST:END -->
+- 2026-07-05 — [ping도 안 되는 ClusterIP로 보낸 패킷은 어떻게 Pod에 닿는가 — kube-proxy iptables 모드](https://velog.io/@jungseonw00/kube-proxy-iptables-clusterip-routing)<!-- BLOG-POST-LIST:END -->
