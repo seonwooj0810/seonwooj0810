@@ -54,8 +54,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-12 — [Kafka 리더가 죽으면 커밋된 메시지는 왜 사라졌었나 — High Watermark와 Leader Epoch](https://velog.io/@jungseonw00/kafka-high-watermark-leader-epoch)
 - 2026-07-11 — [remove 다음에 persist 했는데 INSERT가 먼저 나갔다 — Hibernate flush가 호출 순서를 버리는 이유](https://velog.io/@jungseonw00/hibernate-actionqueue-flush-order)
 - 2026-07-10 — [PostgreSQL은 UPDATE마다 인덱스를 새로 쓸까 — HOT이 인덱스 write를 없애는 법](https://velog.io/@jungseonw00/postgresql-hot-heap-only-tuples)
 - 2026-07-09 — [같은 이미지로 컨테이너를 수십 개 띄워도 디스크가 안 터지는 이유 — overlay2와 copy_up](https://velog.io/@jungseonw00/docker-overlay2-copy-on-write)
-- 2026-07-08 — [블로킹 호출은 왜 가상 스레드의 캐리어를 놓아주는가 — 마운트·언마운트와 pinning](https://velog.io/@jungseonw00/java-virtual-threads-mount-unmount-pinning)
-- 2026-07-07 — [노드를 하나 늘렸을 뿐인데 캐시가 거의 다 miss나는 이유 — 일관된 해싱과 가상 노드](https://velog.io/@jungseonw00/consistent-hashing-virtual-nodes)<!-- BLOG-POST-LIST:END -->
+- 2026-07-08 — [블로킹 호출은 왜 가상 스레드의 캐리어를 놓아주는가 — 마운트·언마운트와 pinning](https://velog.io/@jungseonw00/java-virtual-threads-mount-unmount-pinning)<!-- BLOG-POST-LIST:END -->
