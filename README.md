@@ -8,8 +8,10 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 34 PRs merged · 13 projects**
+**🔀 36 PRs merged · 14 projects**
 
+<img src="https://github.com/springdoc.png" width="18" height="18"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…<br>
+<img src="https://github.com/springdoc.png" width="18" height="18"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24218**](https://github.com/OpenAPITools/openapi-generator/pull/24218 "fix(kotlin-server): use valid Kotlin String conversions for ktor delegate header params") fix(kotlin-server): use valid Kotlin String conversions…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24062**](https://github.com/OpenAPITools/openapi-generator/pull/24062 "[Go] Honor generateUnmarshalJSON=false for oneOf models") [Go] Honor generateUnmarshalJSON=false for oneOf models<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24047**](https://github.com/OpenAPITools/openapi-generator/pull/24047 "[kotlin] Add @get:JsonValue to nested Jackson enums (#23886)") [kotlin] Add @get:JsonValue to nested Jackson enums (#2…<br>
