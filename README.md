@@ -57,8 +57,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-16 — [인터페이스만 선언했는데 리포지토리 구현체는 누가 만드나 — Spring Data JPA 프록시와 쿼리 룩업](https://velog.io/@jungseonw00/spring-data-jpa-repository-proxy)
 - 2026-07-15 — [HikariCP는 커넥션을 빌려줄 때 왜 락을 잡지 않는가 — ConcurrentBag의 상태 CAS 대여](https://velog.io/@jungseonw00/hikaricp-concurrentbag-connection-lending)
 - 2026-07-14 — [이스케이프 분석은 객체를 스택에 올리지 않는다 — HotSpot이 할당을 통째로 지우는 법](https://velog.io/@jungseonw00/escape-analysis-scalar-replacement)
 - 2026-07-13 — [리다이렉트에서 인가 코드가 새어도 토큰을 못 만드는 이유 — PKCE](https://velog.io/@jungseonw00/pkce-proof-key-for-code-exchange)
-- 2026-07-12 — [Kafka 리더가 죽으면 커밋된 메시지는 왜 사라졌었나 — High Watermark와 Leader Epoch](https://velog.io/@jungseonw00/kafka-high-watermark-leader-epoch)
-- 2026-07-11 — [remove 다음에 persist 했는데 INSERT가 먼저 나갔다 — Hibernate flush가 호출 순서를 버리는 이유](https://velog.io/@jungseonw00/hibernate-actionqueue-flush-order)<!-- BLOG-POST-LIST:END -->
+- 2026-07-12 — [Kafka 리더가 죽으면 커밋된 메시지는 왜 사라졌었나 — High Watermark와 Leader Epoch](https://velog.io/@jungseonw00/kafka-high-watermark-leader-epoch)<!-- BLOG-POST-LIST:END -->
