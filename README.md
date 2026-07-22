@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 40 PRs merged · 15 projects**
+**🔀 41 PRs merged · 15 projects**
 
+<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5193**](https://github.com/swagger-api/swagger-core/pull/5193 "Restore inner property name from map key in handleUnwrapped") Restore inner property name from map key in handleUnwra…<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5186**](https://github.com/swagger-api/swagger-core/pull/5186 "fix: let explicit @Schema(format) override type-derived format (#5185)") fix: let explicit @Schema(format) override type-derived…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** [**#6076**](https://github.com/FasterXML/jackson-databind/pull/6076 "Fix #4762: @JsonValue should honor @JsonInclude on annotated accessor") Fix #4762: @JsonValue should honor @JsonInclude on anno…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** [**#6102**](https://github.com/FasterXML/jackson-databind/pull/6102 "Fix #6101: omit NON_EMPTY Map when CUSTOM content filter removes all entries") Fix #6101: omit NON_EMPTY Map when CUSTOM content filte…<br>
