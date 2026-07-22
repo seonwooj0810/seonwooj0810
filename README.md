@@ -61,8 +61,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-22 — [Prometheus는 16바이트 샘플을 어떻게 평균 1.37바이트로 저장하는가](https://velog.io/@jungseonw00/prometheus-tsdb-storage-engine)
 - 2026-07-21 — [TLS 1.3은 &lpar;EC&rpar;DHE 비밀 하나에서 어떻게 모든 키를 뽑는가 — HKDF 키 스케줄](https://velog.io/@jungseonw00/tls-1-3-key-schedule)
 - 2026-07-20 — [무중단 배포인데 왜 간헐적 connection refused가 뜨는가 — 파드 종료와 엔드포인트 제거의 경쟁 조건](https://velog.io/@jungseonw00/pod-termination-endpoint-race)
 - 2026-07-19 — [컨테이너가 메모리 한도에 닿으면 죽는가, 느려지는가 — cgroup v2 memory.high와 memory.max의 경계](https://velog.io/@jungseonw00/cgroup-v2-memory-controller-oom)
-- 2026-07-18 — [SEQUENCE는 INSERT마다 nextval을 친다? — Hibernate pooled 옵티마이저가 50건에 한 번만 DB를 치는 법](https://velog.io/@jungseonw00/hibernate-sequence-pooled-optimizer)
-- 2026-07-17 — [FOR UPDATE는 왜 존재하지도 않는 행까지 잠그는가 — InnoDB 넥스트키 락](https://velog.io/@jungseonw00/innodb-next-key-lock-phantom)<!-- BLOG-POST-LIST:END -->
+- 2026-07-18 — [SEQUENCE는 INSERT마다 nextval을 친다? — Hibernate pooled 옵티마이저가 50건에 한 번만 DB를 치는 법](https://velog.io/@jungseonw00/hibernate-sequence-pooled-optimizer)<!-- BLOG-POST-LIST:END -->
