@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 41 PRs merged · 15 projects**
+**🔀 42 PRs merged · 15 projects**
 
+<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5205**](https://github.com/swagger-api/swagger-core/pull/5205 "fix: emit $ref for array items when cycle guard suppresses implementation processing") fix: emit $ref for array items when cycle guard suppres…<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5193**](https://github.com/swagger-api/swagger-core/pull/5193 "Restore inner property name from map key in handleUnwrapped") Restore inner property name from map key in handleUnwra…<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5186**](https://github.com/swagger-api/swagger-core/pull/5186 "fix: let explicit @Schema(format) override type-derived format (#5185)") fix: let explicit @Schema(format) override type-derived…<br>
 <img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** [**#6076**](https://github.com/FasterXML/jackson-databind/pull/6076 "Fix #4762: @JsonValue should honor @JsonInclude on annotated accessor") Fix #4762: @JsonValue should honor @JsonInclude on anno…<br>
