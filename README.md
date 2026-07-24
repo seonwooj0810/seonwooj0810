@@ -62,8 +62,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-24 — [객체 할당은 왜 대부분 거의 공짜인가 — JVM TLAB이 포인터 하나 올리는 일로 만드는 법](https://velog.io/@jungseonw00/jvm-tlab-allocation)
 - 2026-07-23 — [RTO는 왜 평균 RTT가 아니라 편차로 정해지는가 — TCP 재전송 타임아웃](https://velog.io/@jungseonw00/tcp-rto-retransmission-timeout)
 - 2026-07-22 — [Prometheus는 16바이트 샘플을 어떻게 평균 1.37바이트로 저장하는가](https://velog.io/@jungseonw00/prometheus-tsdb-storage-engine)
 - 2026-07-21 — [TLS 1.3은 &lpar;EC&rpar;DHE 비밀 하나에서 어떻게 모든 키를 뽑는가 — HKDF 키 스케줄](https://velog.io/@jungseonw00/tls-1-3-key-schedule)
-- 2026-07-20 — [무중단 배포인데 왜 간헐적 connection refused가 뜨는가 — 파드 종료와 엔드포인트 제거의 경쟁 조건](https://velog.io/@jungseonw00/pod-termination-endpoint-race)
-- 2026-07-19 — [컨테이너가 메모리 한도에 닿으면 죽는가, 느려지는가 — cgroup v2 memory.high와 memory.max의 경계](https://velog.io/@jungseonw00/cgroup-v2-memory-controller-oom)<!-- BLOG-POST-LIST:END -->
+- 2026-07-20 — [무중단 배포인데 왜 간헐적 connection refused가 뜨는가 — 파드 종료와 엔드포인트 제거의 경쟁 조건](https://velog.io/@jungseonw00/pod-termination-endpoint-race)<!-- BLOG-POST-LIST:END -->
