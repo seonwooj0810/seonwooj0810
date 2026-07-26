@@ -8,8 +8,10 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 47 PRs merged · 16 projects**
+**🔀 49 PRs merged · 16 projects**
 
+<img src="https://github.com/qos-ch.png" width="18" height="18"/> **[logback](https://github.com/qos-ch/logback)** [**#1056**](https://github.com/qos-ch/logback/pull/1056 "Detect file collisions in SiftingAppender nested appenders (#1041)") Detect file collisions in SiftingAppender nested append…<br>
+<img src="https://github.com/qos-ch.png" width="18" height="18"/> **[logback](https://github.com/qos-ch/logback)** [**#1052**](https://github.com/qos-ch/logback/pull/1052 "Fail loudly when LayoutWrappingEncoder has no layout (#1046)") Fail loudly when LayoutWrappingEncoder has no layout (#…<br>
 <img src="https://github.com/qos-ch.png" width="18" height="18"/> **[logback](https://github.com/qos-ch/logback)** [**#1050**](https://github.com/qos-ch/logback/pull/1050 "ConsoleAppender: support JLine's org.jline.jansi.AnsiConsole for <withJansi>") ConsoleAppender: support JLine's org.jline.jansi.AnsiCo…<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5192**](https://github.com/swagger-api/swagger-core/pull/5192 "Honor PropertyNamingStrategy for get/is-prefixed property names") Honor PropertyNamingStrategy for get/is-prefixed proper…<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** [**#5205**](https://github.com/swagger-api/swagger-core/pull/5205 "fix: emit $ref for array items when cycle guard suppresses implementation processing") fix: emit $ref for array items when cycle guard suppres…<br>
