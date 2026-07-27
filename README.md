@@ -69,8 +69,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-27 — [redo log가 있는데 왜 페이지를 두 번 쓰는가 — InnoDB 더블라이트 버퍼](https://velog.io/@jungseonw00/innodb-doublewrite-buffer)
 - 2026-07-26 — [unshare --pid로 셸을 띄웠는데 ps에 호스트가 다 보이는 이유 — Linux namespace 내부 동작](https://velog.io/@jungseonw00/linux-namespaces-container-isolation)
 - 2026-07-25 — [Argon2는 왜 반복 횟수가 아니라 메모리로 GPU 크래킹을 막는가](https://velog.io/@jungseonw00/argon2-memory-hard-password-hashing)
 - 2026-07-24 — [객체 할당은 왜 대부분 거의 공짜인가 — JVM TLAB이 포인터 하나 올리는 일로 만드는 법](https://velog.io/@jungseonw00/jvm-tlab-allocation)
-- 2026-07-23 — [RTO는 왜 평균 RTT가 아니라 편차로 정해지는가 — TCP 재전송 타임아웃](https://velog.io/@jungseonw00/tcp-rto-retransmission-timeout)
-- 2026-07-22 — [Prometheus는 16바이트 샘플을 어떻게 평균 1.37바이트로 저장하는가](https://velog.io/@jungseonw00/prometheus-tsdb-storage-engine)<!-- BLOG-POST-LIST:END -->
+- 2026-07-23 — [RTO는 왜 평균 RTT가 아니라 편차로 정해지는가 — TCP 재전송 타임아웃](https://velog.io/@jungseonw00/tcp-rto-retransmission-timeout)<!-- BLOG-POST-LIST:END -->
