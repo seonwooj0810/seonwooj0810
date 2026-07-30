@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 50 PRs merged · 16 projects**
+**🔀 51 PRs merged · 16 projects**
 
+<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24392**](https://github.com/OpenAPITools/openapi-generator/pull/24392 "[Java][RestClient] Mark non-required API method parameters @Nullable under JSpecify") [Java][RestClient] Mark non-required API method paramet…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24385**](https://github.com/OpenAPITools/openapi-generator/pull/24385 "fix(java): render enum default on allOf + $ref composed property (#24384)") fix(java): render enum default on allOf + $ref composed…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24114**](https://github.com/OpenAPITools/openapi-generator/pull/24114 "[Java] Generate nullability annotations on all-args constructor parameters") [Java] Generate nullability annotations on all-args con…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#23967**](https://github.com/OpenAPITools/openapi-generator/pull/23967 "[BUG][core] Normalize OAS 3.1 `type: null` map value (additionalProperties) under NORMALIZE_31SPEC") [BUG][core] Normalize OAS 3.1 `type: null` map value (a…<br>
