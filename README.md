@@ -71,8 +71,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-07-30 — [타임스탬프로 최신 쓰기를 고르면 왜 데이터가 조용히 사라지는가 — 벡터 시계와 버전 벡터](https://velog.io/@jungseonw00/vector-clocks-version-vectors)
 - 2026-07-29 — [Kafka 컴팩션은 어떻게 키별 최신 값 하나만 남기는가 — log cleaner 내부 동작](https://velog.io/@jungseonw00/kafka-log-compaction-log-cleaner)
 - 2026-07-28 — [ForkJoinPool은 왜 소유자는 LIFO, 도둑은 FIFO로 작업을 꺼내는가](https://velog.io/@jungseonw00/forkjoinpool-work-stealing-deque)
 - 2026-07-27 — [redo log가 있는데 왜 페이지를 두 번 쓰는가 — InnoDB 더블라이트 버퍼](https://velog.io/@jungseonw00/innodb-doublewrite-buffer)
-- 2026-07-26 — [unshare --pid로 셸을 띄웠는데 ps에 호스트가 다 보이는 이유 — Linux namespace 내부 동작](https://velog.io/@jungseonw00/linux-namespaces-container-isolation)
-- 2026-07-25 — [Argon2는 왜 반복 횟수가 아니라 메모리로 GPU 크래킹을 막는가](https://velog.io/@jungseonw00/argon2-memory-hard-password-hashing)<!-- BLOG-POST-LIST:END -->
+- 2026-07-26 — [unshare --pid로 셸을 띄웠는데 ps에 호스트가 다 보이는 이유 — Linux namespace 내부 동작](https://velog.io/@jungseonw00/linux-namespaces-container-isolation)<!-- BLOG-POST-LIST:END -->
