@@ -73,8 +73,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-08-03 — [Hibernate READ_WRITE 캐시가 거는 락은 DB 락과 무엇이 다른가](https://velog.io/@jungseonw00/hibernate-read-write-cache-soft-lock)
 - 2026-08-01 — [헤더에 gzip을 씌웠더니 세션 쿠키가 새어나갔다 — HPACK은 CRIME을 어떻게 구조적으로 막는가](https://velog.io/@jungseonw00/hpack-header-compression)
 - 2026-07-30 — [타임스탬프로 최신 쓰기를 고르면 왜 데이터가 조용히 사라지는가 — 벡터 시계와 버전 벡터](https://velog.io/@jungseonw00/vector-clocks-version-vectors)
 - 2026-07-29 — [Kafka 컴팩션은 어떻게 키별 최신 값 하나만 남기는가 — log cleaner 내부 동작](https://velog.io/@jungseonw00/kafka-log-compaction-log-cleaner)
-- 2026-07-28 — [ForkJoinPool은 왜 소유자는 LIFO, 도둑은 FIFO로 작업을 꺼내는가](https://velog.io/@jungseonw00/forkjoinpool-work-stealing-deque)
-- 2026-07-27 — [redo log가 있는데 왜 페이지를 두 번 쓰는가 — InnoDB 더블라이트 버퍼](https://velog.io/@jungseonw00/innodb-doublewrite-buffer)<!-- BLOG-POST-LIST:END -->
+- 2026-07-28 — [ForkJoinPool은 왜 소유자는 LIFO, 도둑은 FIFO로 작업을 꺼내는가](https://velog.io/@jungseonw00/forkjoinpool-work-stealing-deque)<!-- BLOG-POST-LIST:END -->
