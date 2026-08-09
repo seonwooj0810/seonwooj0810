@@ -74,8 +74,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-08-09 — [sync_binlog=1이면 커밋마다 fsync가 발생하는가 — MySQL Group Commit의 진짜 상한](https://velog.io/@jungseonw00/mysql-group-commit-sync-delay)
 - 2026-08-07 — [seccomp-BPF가 syscall 인자값은 검사하면서 경로 문자열은 못 보는 이유](https://velog.io/@jungseonw00/seccomp-bpf-argument-filtering)
 - 2026-08-05 — [replicas 1개인 Deployment는 왜 기본값만으로 무중단 롤링이 되는가 — maxSurge/maxUnavailable 비대칭 라운딩](https://velog.io/@jungseonw00/kubernetes-deployment-fencepost-rounding)
 - 2026-08-03 — [Hibernate READ_WRITE 캐시가 거는 락은 DB 락과 무엇이 다른가](https://velog.io/@jungseonw00/hibernate-read-write-cache-soft-lock)
-- 2026-08-01 — [헤더에 gzip을 씌웠더니 세션 쿠키가 새어나갔다 — HPACK은 CRIME을 어떻게 구조적으로 막는가](https://velog.io/@jungseonw00/hpack-header-compression)
-- 2026-07-30 — [타임스탬프로 최신 쓰기를 고르면 왜 데이터가 조용히 사라지는가 — 벡터 시계와 버전 벡터](https://velog.io/@jungseonw00/vector-clocks-version-vectors)<!-- BLOG-POST-LIST:END -->
+- 2026-08-01 — [헤더에 gzip을 씌웠더니 세션 쿠키가 새어나갔다 — HPACK은 CRIME을 어떻게 구조적으로 막는가](https://velog.io/@jungseonw00/hpack-header-compression)<!-- BLOG-POST-LIST:END -->
