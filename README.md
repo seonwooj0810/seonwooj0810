@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 56 PRs merged · 17 projects**
+**🔀 57 PRs merged · 18 projects**
 
+<img src="https://github.com/liquibase.png" width="18" height="18"/> **[liquibase](https://github.com/liquibase/liquibase)** [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24649**](https://github.com/OpenAPITools/openapi-generator/pull/24649 "[Java] Fix generated build.gradle incompatible with Gradle 9") [Java] Fix generated build.gradle incompatible with Gra…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24419**](https://github.com/OpenAPITools/openapi-generator/pull/24419 "[BUG][JAVA] Render enum constants in object property defaults (fixes #24298)") [BUG][JAVA] Render enum constants in object property de…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24392**](https://github.com/OpenAPITools/openapi-generator/pull/24392 "[Java][RestClient] Mark non-required API method parameters @Nullable under JSpecify") [Java][RestClient] Mark non-required API method paramet…<br>
