@@ -80,8 +80,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-08-14 — [힙을 32GB로 잡으면 Compressed Oops는 정말 켜져 있을까](https://velog.io/@jungseonw00/compressed-oops-encoding)
 - 2026-08-12 — [OTP 6자리 숫자는 HMAC 출력의 어디를 잘라서 나오는가 — HOTP Dynamic Truncation](https://velog.io/@jungseonw00/hotp-totp-dynamic-truncation)
 - 2026-08-10 — [sync=true를 걸어도 RedisCache에서 원본 조회가 여러 번 나가는 이유](https://velog.io/@jungseonw00/redis-cache-sync-thundering-herd)
 - 2026-08-09 — [sync_binlog=1이면 커밋마다 fsync가 발생하는가 — MySQL Group Commit의 진짜 상한](https://velog.io/@jungseonw00/mysql-group-commit-sync-delay)
-- 2026-08-07 — [seccomp-BPF가 syscall 인자값은 검사하면서 경로 문자열은 못 보는 이유](https://velog.io/@jungseonw00/seccomp-bpf-argument-filtering)
-- 2026-08-05 — [replicas 1개인 Deployment는 왜 기본값만으로 무중단 롤링이 되는가 — maxSurge/maxUnavailable 비대칭 라운딩](https://velog.io/@jungseonw00/kubernetes-deployment-fencepost-rounding)<!-- BLOG-POST-LIST:END -->
+- 2026-08-07 — [seccomp-BPF가 syscall 인자값은 검사하면서 경로 문자열은 못 보는 이유](https://velog.io/@jungseonw00/seccomp-bpf-argument-filtering)<!-- BLOG-POST-LIST:END -->
