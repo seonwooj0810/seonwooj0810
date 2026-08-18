@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 60 PRs merged · 19 projects**
+**🔀 61 PRs merged · 20 projects**
 
+<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3415**](https://github.com/OpenFeign/feign/pull/3415 "Return response body in FeignException from errorReading (#2618)") Return response body in FeignException from errorReadin…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3382**](https://github.com/OpenFeign/feign/pull/3382 "Preserve delegate content type for multipart parameters") Preserve delegate content type for multipart parameters<br>
