@@ -81,8 +81,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-08-19 — [샘플링 비율을 10%에서 5%로 낮춰도 기존 트레이스가 그대로 남는 이유 — OpenTelemetry TraceIdRatioBased](https://velog.io/@jungseonw00/otel-traceidratio-sampler-monotonicity)
 - 2026-08-17 — [SACK 블록을 받았는데 왜 그 세그먼트는 아직 재전송되지 않았을까](https://velog.io/@jungseonw00/tcp-sack-scoreboard-nextseg)
 - 2026-08-14 — [힙을 32GB로 잡으면 Compressed Oops는 정말 켜져 있을까](https://velog.io/@jungseonw00/compressed-oops-encoding)
 - 2026-08-12 — [OTP 6자리 숫자는 HMAC 출력의 어디를 잘라서 나오는가 — HOTP Dynamic Truncation](https://velog.io/@jungseonw00/hotp-totp-dynamic-truncation)
-- 2026-08-10 — [sync=true를 걸어도 RedisCache에서 원본 조회가 여러 번 나가는 이유](https://velog.io/@jungseonw00/redis-cache-sync-thundering-herd)
-- 2026-08-09 — [sync_binlog=1이면 커밋마다 fsync가 발생하는가 — MySQL Group Commit의 진짜 상한](https://velog.io/@jungseonw00/mysql-group-commit-sync-delay)<!-- BLOG-POST-LIST:END -->
+- 2026-08-10 — [sync=true를 걸어도 RedisCache에서 원본 조회가 여러 번 나가는 이유](https://velog.io/@jungseonw00/redis-cache-sync-thundering-herd)<!-- BLOG-POST-LIST:END -->
