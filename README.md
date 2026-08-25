@@ -8,8 +8,9 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 61 PRs merged · 20 projects**
+**🔀 62 PRs merged · 21 projects**
 
+<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
 <img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3415**](https://github.com/OpenFeign/feign/pull/3415 "Return response body in FeignException from errorReading (#2618)") Return response body in FeignException from errorReadin…<br>
