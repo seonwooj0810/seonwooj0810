@@ -83,8 +83,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-09-04 — [SWIM은 왜 바쁜 노드를 죽은 노드로 오인하지 않는가 — Lifeguard의 자기인식 타임아웃](https://velog.io/@jungseonw00/swim-lifeguard-self-awareness-timeout)
 - 2026-09-02 — [커밋됐는데 왜 안 보일까 — PostgreSQL MVCC의 xmin/xmax 가시성 판정](https://velog.io/@jungseonw00/postgresql-mvcc-xmin-xmax-visibility)
 - 2026-08-19 — [샘플링 비율을 10%에서 5%로 낮춰도 기존 트레이스가 그대로 남는 이유 — OpenTelemetry TraceIdRatioBased](https://velog.io/@jungseonw00/otel-traceidratio-sampler-monotonicity)
 - 2026-08-17 — [SACK 블록을 받았는데 왜 그 세그먼트는 아직 재전송되지 않았을까](https://velog.io/@jungseonw00/tcp-sack-scoreboard-nextseg)
-- 2026-08-14 — [힙을 32GB로 잡으면 Compressed Oops는 정말 켜져 있을까](https://velog.io/@jungseonw00/compressed-oops-encoding)
-- 2026-08-12 — [OTP 6자리 숫자는 HMAC 출력의 어디를 잘라서 나오는가 — HOTP Dynamic Truncation](https://velog.io/@jungseonw00/hotp-totp-dynamic-truncation)<!-- BLOG-POST-LIST:END -->
+- 2026-08-14 — [힙을 32GB로 잡으면 Compressed Oops는 정말 켜져 있을까](https://velog.io/@jungseonw00/compressed-oops-encoding)<!-- BLOG-POST-LIST:END -->
