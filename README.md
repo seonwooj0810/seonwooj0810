@@ -64,12 +64,12 @@
 
 <img src="https://github.com/ddak-league.png" width="16" height="16"/> **[ddak_league](https://github.com/ddak-league/ddak_league)** `6`
 
-- [**#6**](https://github.com/ddak-league/ddak_league/pull/6 "fix: 랭킹 새로고침 스피너 고착 · 딸깍 표시값 경합 수정") fix: 랭킹 새로고침 스피너 고착 · 딸깍 표…
-- [**#5**](https://github.com/ddak-league/ddak_league/pull/5 "feat(clicker): 팀 미설정 안내를 누르면 팀 설정 화면으로 이동한다") feat(clicker): 팀 미설정 안내를 누르면 팀 �…
-- [**#4**](https://github.com/ddak-league/ddak_league/pull/4 "fix(ranking): 조회 실패를 로딩과 구분한다 (+ 스토어 스크린샷 파이프라인)") fix(ranking): 조회 실패를 로딩과 구분한다 (…
+- [**#6**](https://github.com/ddak-league/ddak_league/pull/6 "fix: 랭킹 새로고침 스피너 고착 · 딸깍 표시값 경합 수정") fix: 랭킹 새로고침 스피너 고착 · 딸깍 표시값 경합 수정
+- [**#5**](https://github.com/ddak-league/ddak_league/pull/5 "feat(clicker): 팀 미설정 안내를 누르면 팀 설정 화면으로 이동한다") feat(clicker): 팀 미설정 안내를 누르면 팀 설정 화면으로 이동한다
+- [**#4**](https://github.com/ddak-league/ddak_league/pull/4 "fix(ranking): 조회 실패를 로딩과 구분한다 (+ 스토어 스크린샷 파이프라인)") fix(ranking): 조회 실패를 로딩과 구분한다 (+ 스토어 스크린샷 파이프라인)
 - [**#3**](https://github.com/ddak-league/ddak_league/pull/3 "chore: pubspec.lock 을 pubspec.yaml 과 맞춘다") chore: pubspec.lock 을 pubspec.yaml 과 맞춘다
 - [**#2**](https://github.com/ddak-league/ddak_league/pull/2 "chore(release): 1.0.0+5") chore(release): 1.0.0+5
-- [**#1**](https://github.com/ddak-league/ddak_league/pull/1 "fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 두 건") fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 …
+- [**#1**](https://github.com/ddak-league/ddak_league/pull/1 "fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 두 건") fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 두 건
 
 <img src="https://github.com/qos-ch.png" width="16" height="16"/> **[logback](https://github.com/qos-ch/logback)** `4`
 
