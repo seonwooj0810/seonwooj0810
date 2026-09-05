@@ -8,25 +8,45 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 69 PRs merged · 22 projects**
+**🔀 63 PRs merged · 21 projects**
+
+**핵심 활동**
+
+<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `⭐ 81k` [**#50734**](https://github.com/spring-projects/spring-boot/pull/50734 "High number of connections due to Mongo health indicator") High number of connections due to Mongo health indicator<br>
+<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `⭐ 60k` [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
+<img src="https://github.com/netty.png" width="18" height="18"/> **[netty](https://github.com/netty/netty)** `⭐ 35k` [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…<br>
+<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…<br>
+<img src="https://github.com/resilience4j.png" width="18" height="18"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `⭐ 11k` [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …<br>
+<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** `⭐ 9.8k` [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
+<img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `⭐ 7.7k` [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
+<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `⭐ 7.5k` [**#5192**](https://github.com/swagger-api/swagger-core/pull/5192 "Honor PropertyNamingStrategy for get/is-prefixed property names") Honor PropertyNamingStrategy for get/is-prefixed proper…<br>
 
 **프로젝트별 요약**
 
-<img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **openapi-generator** `18` · <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **feign** `10` · <img src="https://github.com/ddak-league.png" width="14" height="14"/> **ddak_league** `6` · <img src="https://github.com/qos-ch.png" width="14" height="14"/> **logback** `4` · <img src="https://github.com/FasterXML.png" width="14" height="14"/> **jackson-databind** `4` · <img src="https://github.com/swagger-api.png" width="14" height="14"/> **swagger-core** `4` · <img src="https://github.com/FasterXML.png" width="14" height="14"/> **jackson-dataformats-text** `3` · <img src="https://github.com/FasterXML.png" width="14" height="14"/> **jackson-core** `3` · <img src="https://github.com/springdoc.png" width="14" height="14"/> **springdoc-openapi** `2` · <img src="https://github.com/netty.png" width="14" height="14"/> **netty** `2` · <img src="https://github.com/spring-cloud.png" width="14" height="14"/> **spring-cloud-openfeign** `2` · <img src="https://github.com/spring-projects.png" width="14" height="14"/> **spring-framework** `1` · <img src="https://github.com/swagger-api.png" width="14" height="14"/> **swagger-parser** `1` · <img src="https://github.com/mybatis.png" width="14" height="14"/> **spring** `1` · <img src="https://github.com/FasterXML.png" width="14" height="14"/> **jackson-modules-java8** `1` · <img src="https://github.com/spring-projects.png" width="14" height="14"/> **spring-boot** `1` · <img src="https://github.com/resilience4j.png" width="14" height="14"/> **resilience4j** `1` · <img src="https://github.com/liquibase.png" width="14" height="14"/> **liquibase** `1` · <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **querydsl** `1` · <img src="https://github.com/mapstruct.png" width="14" height="14"/> **mapstruct** `1` · <img src="https://github.com/jreleaser.png" width="14" height="14"/> **jreleaser** `1` · <img src="https://github.com/spring-projects.png" width="14" height="14"/> **spring-batch** `1`
-
-**최근 활동**
-
-<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…<br>
-<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
-<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…<br>
-<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
-<img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** [**#6151**](https://github.com/FasterXML/jackson-databind/pull/6151 "Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`") Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`<br>
-<img src="https://github.com/FasterXML.png" width="18" height="18"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…<br>
-<img src="https://github.com/liquibase.png" width="18" height="18"/> **[liquibase](https://github.com/liquibase/liquibase)** [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…<br>
-<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** [**#24649**](https://github.com/OpenAPITools/openapi-generator/pull/24649 "[Java] Fix generated build.gradle incompatible with Gradle 9") [Java] Fix generated build.gradle incompatible with Gra…<br>
+<img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`<br>
+<img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[feign](https://github.com/OpenFeign/feign)** `10`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`<br>
+<img src="https://github.com/qos-ch.png" width="14" height="14"/> **[logback](https://github.com/qos-ch/logback)** `4`<br>
+<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `4`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
+<img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
+<img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
+<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `2`<br>
+<img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
+<img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
+<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
+<img src="https://github.com/resilience4j.png" width="14" height="14"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
+<img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`<br>
+<img src="https://github.com/mapstruct.png" width="14" height="14"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `1`<br>
+<img src="https://github.com/jreleaser.png" width="14" height="14"/> **[jreleaser](https://github.com/jreleaser/jreleaser)** `1`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (69건)</summary>
+<summary>프로젝트별 전체 보기 (63건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`
 
@@ -62,14 +82,12 @@
 - [**#3371**](https://github.com/OpenFeign/feign/pull/3371 "Forward dismiss404 from CoroutineFeign builder to AsyncFeign") Forward dismiss404 from CoroutineFeign builder to Async…
 - [**#3370**](https://github.com/OpenFeign/feign/pull/3370 "Document metrics published by the micrometer module") Document metrics published by the micrometer module
 
-<img src="https://github.com/ddak-league.png" width="16" height="16"/> **[ddak_league](https://github.com/ddak-league/ddak_league)** `6`
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`
 
-- [**#6**](https://github.com/ddak-league/ddak_league/pull/6 "fix: 랭킹 새로고침 스피너 고착 · 딸깍 표시값 경합 수정") fix: 랭킹 새로고침 스피너 고착 · 딸깍 표시값 경합 수정
-- [**#5**](https://github.com/ddak-league/ddak_league/pull/5 "feat(clicker): 팀 미설정 안내를 누르면 팀 설정 화면으로 이동한다") feat(clicker): 팀 미설정 안내를 누르면 팀 설정 화면으로 이동한다
-- [**#4**](https://github.com/ddak-league/ddak_league/pull/4 "fix(ranking): 조회 실패를 로딩과 구분한다 (+ 스토어 스크린샷 파이프라인)") fix(ranking): 조회 실패를 로딩과 구분한다 (+ 스토어 스크린샷 파이프라인)
-- [**#3**](https://github.com/ddak-league/ddak_league/pull/3 "chore: pubspec.lock 을 pubspec.yaml 과 맞춘다") chore: pubspec.lock 을 pubspec.yaml 과 맞춘다
-- [**#2**](https://github.com/ddak-league/ddak_league/pull/2 "chore(release): 1.0.0+5") chore(release): 1.0.0+5
-- [**#1**](https://github.com/ddak-league/ddak_league/pull/1 "fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 두 건") fix: 출시 QA 에서 나온 랭킹·팀 설정 결함 두 건
+- [**#6151**](https://github.com/FasterXML/jackson-databind/pull/6151 "Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`") Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`
+- [**#6076**](https://github.com/FasterXML/jackson-databind/pull/6076 "Fix #4762: @JsonValue should honor @JsonInclude on annotated accessor") Fix #4762: @JsonValue should honor @JsonInclude on anno…
+- [**#6102**](https://github.com/FasterXML/jackson-databind/pull/6102 "Fix #6101: omit NON_EMPTY Map when CUSTOM content filter removes all entries") Fix #6101: omit NON_EMPTY Map when CUSTOM content filte…
+- [**#6047**](https://github.com/FasterXML/jackson-databind/pull/6047 "Fix #6043: honor FAIL_ON_UNKNOWN_PROPERTIES for creator-based POJOs-as-Array") Fix #6043: honor FAIL_ON_UNKNOWN_PROPERTIES for creator…
 
 <img src="https://github.com/qos-ch.png" width="16" height="16"/> **[logback](https://github.com/qos-ch/logback)** `4`
 
@@ -77,13 +95,6 @@
 - [**#1056**](https://github.com/qos-ch/logback/pull/1056 "Detect file collisions in SiftingAppender nested appenders (#1041)") Detect file collisions in SiftingAppender nested append…
 - [**#1052**](https://github.com/qos-ch/logback/pull/1052 "Fail loudly when LayoutWrappingEncoder has no layout (#1046)") Fail loudly when LayoutWrappingEncoder has no layout (#…
 - [**#1050**](https://github.com/qos-ch/logback/pull/1050 "ConsoleAppender: support JLine's org.jline.jansi.AnsiConsole for <withJansi>") ConsoleAppender: support JLine's org.jline.jansi.AnsiCo…
-
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`
-
-- [**#6151**](https://github.com/FasterXML/jackson-databind/pull/6151 "Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`") Add `DateTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS`
-- [**#6076**](https://github.com/FasterXML/jackson-databind/pull/6076 "Fix #4762: @JsonValue should honor @JsonInclude on annotated accessor") Fix #4762: @JsonValue should honor @JsonInclude on anno…
-- [**#6102**](https://github.com/FasterXML/jackson-databind/pull/6102 "Fix #6101: omit NON_EMPTY Map when CUSTOM content filter removes all entries") Fix #6101: omit NON_EMPTY Map when CUSTOM content filte…
-- [**#6047**](https://github.com/FasterXML/jackson-databind/pull/6047 "Fix #6043: honor FAIL_ON_UNKNOWN_PROPERTIES for creator-based POJOs-as-Array") Fix #6043: honor FAIL_ON_UNKNOWN_PROPERTIES for creator…
 
 <img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `4`
 
@@ -119,21 +130,21 @@
 - [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
 - [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
 
+<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`
+
+- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
+
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
 
 - [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
-
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
-
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
@@ -143,9 +154,9 @@
 
 - [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …
 
-<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
 
-- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/OpenFeign.png" width="16" height="16"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`
 
