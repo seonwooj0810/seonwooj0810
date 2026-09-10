@@ -8,7 +8,7 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 63 PRs merged · 21 projects**
+**🔀 64 PRs merged · 21 projects**
 
 **핵심 활동**
 
@@ -28,25 +28,25 @@
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`<br>
 <img src="https://github.com/qos-ch.png" width="14" height="14"/> **[logback](https://github.com/qos-ch/logback)** `4`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `4`<br>
+<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
 <img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
 <img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
-<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `2`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
 <img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
 <img src="https://github.com/resilience4j.png" width="14" height="14"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
 <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`<br>
 <img src="https://github.com/mapstruct.png" width="14" height="14"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `1`<br>
 <img src="https://github.com/jreleaser.png" width="14" height="14"/> **[jreleaser](https://github.com/jreleaser/jreleaser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (63건)</summary>
+<summary>프로젝트별 전체 보기 (64건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`
 
@@ -103,6 +103,12 @@
 - [**#5193**](https://github.com/swagger-api/swagger-core/pull/5193 "Restore inner property name from map key in handleUnwrapped") Restore inner property name from map key in handleUnwra…
 - [**#5186**](https://github.com/swagger-api/swagger-core/pull/5186 "fix: let explicit @Schema(format) override type-derived format (#5185)") fix: let explicit @Schema(format) override type-derived…
 
+<img src="https://github.com/spring-cloud.png" width="16" height="16"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`
+
+- [**#1416**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1416 "Fix HttpHeaders header-map params losing values via QueryMapEncoder") Fix HttpHeaders header-map params losing values via Que…
+- [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
+- [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
+
 <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`
 
 - [**#703**](https://github.com/FasterXML/jackson-dataformats-text/pull/703 "Add name-based column modification to `CsvSchema.Builder` (#699)") Add name-based column modification to `CsvSchema.Builde…
@@ -125,10 +131,9 @@
 - [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
 - [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
-<img src="https://github.com/spring-cloud.png" width="16" height="16"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `2`
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
 
-- [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
-- [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`
 
@@ -153,10 +158,6 @@
 <img src="https://github.com/resilience4j.png" width="16" height="16"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`
 
 - [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …
-
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
-
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/OpenFeign.png" width="16" height="16"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`
 
