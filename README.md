@@ -8,7 +8,7 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 64 PRs merged · 21 projects**
+**🔀 65 PRs merged · 22 projects**
 
 **핵심 활동**
 
@@ -18,8 +18,8 @@
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…<br>
 <img src="https://github.com/resilience4j.png" width="18" height="18"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `⭐ 11k` [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** `⭐ 9.8k` [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
+<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-security](https://github.com/spring-projects/spring-security)** `⭐ 9.6k` [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation<br>
 <img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `⭐ 7.7k` [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
-<img src="https://github.com/swagger-api.png" width="18" height="18"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `⭐ 7.5k` [**#5192**](https://github.com/swagger-api/swagger-core/pull/5192 "Honor PropertyNamingStrategy for get/is-prefixed property names") Honor PropertyNamingStrategy for get/is-prefixed proper…<br>
 
 **프로젝트별 요약**
 
@@ -33,9 +33,10 @@
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
 <img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
 <img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
 <img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
@@ -46,7 +47,7 @@
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (64건)</summary>
+<summary>프로젝트별 전체 보기 (65건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`
 
@@ -131,6 +132,14 @@
 - [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
 - [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
+
+- [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
+
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
+
+- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
+
 <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
 
 - [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
@@ -138,10 +147,6 @@
 <img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`
 
 - [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
-
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
-
-- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
 
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
