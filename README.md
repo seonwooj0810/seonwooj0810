@@ -193,8 +193,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-09-18 — [NAT를 꺼도 컨테이너가 안 열리는 이유 — Docker 브리지 routed 모드의 숨은 잠금](https://velog.io/@jungseonw00/docker-bridge-nat-vs-routed-direct-routing)
 - 2026-09-16 — [죽은 튜플이 하나도 없는 테이블도 VACUUM이 필요한 이유 — PostgreSQL XID Wraparound](https://velog.io/@jungseonw00/postgresql-xid-wraparound-vacuum-freeze)
 - 2026-09-14 — [스트림 윈도우를 키워도 업로드가 그대로 막히는 이유 — HTTP/2 이중 흐름 제어](https://velog.io/@jungseonw00/http2-dual-window-flow-control)
 - 2026-09-11 — [Condition.signal&lpar;&rpar;을 불러도 대기 스레드가 즉시 깨어나지 않는 이유 — AQS의 두 큐](https://velog.io/@jungseonw00/aqs-condition-signal-transfer)
-- 2026-09-09 — [내가 추가한 컨테이너를 다른 webhook은 볼 수 있는가 — reinvocationPolicy와 멱등성](https://velog.io/@jungseonw00/admission-webhook-reinvocation-idempotency)
-- 2026-09-07 — [RS256 공개키는 어떻게 HS256 비밀키로 둔갑하는가](https://velog.io/@jungseonw00/rs256-hs256-algorithm-confusion)<!-- BLOG-POST-LIST:END -->
+- 2026-09-09 — [내가 추가한 컨테이너를 다른 webhook은 볼 수 있는가 — reinvocationPolicy와 멱등성](https://velog.io/@jungseonw00/admission-webhook-reinvocation-idempotency)<!-- BLOG-POST-LIST:END -->
