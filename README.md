@@ -198,8 +198,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-09-23 — [@TransactionalEventListener AFTER_COMMIT 리스너의 DB 쓰기는 왜 반영되지 않는가](https://velog.io/@jungseonw00/transactional-event-listener-after-commit-write-lost)
 - 2026-09-21 — [detached 엔티티를 merge&lpar;&rpar;하면 왜 UPDATE 전에 SELECT가 먼저 나가는가](https://velog.io/@jungseonw00/jpa-merge-detached-select-then-copy)
 - 2026-09-18 — [NAT를 꺼도 컨테이너가 안 열리는 이유 — Docker 브리지 routed 모드의 숨은 잠금](https://velog.io/@jungseonw00/docker-bridge-nat-vs-routed-direct-routing)
 - 2026-09-16 — [죽은 튜플이 하나도 없는 테이블도 VACUUM이 필요한 이유 — PostgreSQL XID Wraparound](https://velog.io/@jungseonw00/postgresql-xid-wraparound-vacuum-freeze)
-- 2026-09-14 — [스트림 윈도우를 키워도 업로드가 그대로 막히는 이유 — HTTP/2 이중 흐름 제어](https://velog.io/@jungseonw00/http2-dual-window-flow-control)
-- 2026-09-11 — [Condition.signal&lpar;&rpar;을 불러도 대기 스레드가 즉시 깨어나지 않는 이유 — AQS의 두 큐](https://velog.io/@jungseonw00/aqs-condition-signal-transfer)<!-- BLOG-POST-LIST:END -->
+- 2026-09-14 — [스트림 윈도우를 키워도 업로드가 그대로 막히는 이유 — HTTP/2 이중 흐름 제어](https://velog.io/@jungseonw00/http2-dual-window-flow-control)<!-- BLOG-POST-LIST:END -->
