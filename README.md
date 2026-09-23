@@ -8,7 +8,7 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 67 PRs merged · 22 projects**
+**🔀 68 PRs merged · 23 projects**
 
 **핵심 활동**
 
@@ -34,6 +34,7 @@
 <img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
 <img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
+<img src="https://github.com/seonwooj0810-homelab.png" width="14" height="14"/> **[homelab-gitops](https://github.com/seonwooj0810-homelab/homelab-gitops)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
@@ -47,7 +48,7 @@
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (67건)</summary>
+<summary>프로젝트별 전체 보기 (68건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`
 
@@ -137,6 +138,10 @@
 <img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
 - [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+
+<img src="https://github.com/seonwooj0810-homelab.png" width="16" height="16"/> **[homelab-gitops](https://github.com/seonwooj0810-homelab/homelab-gitops)** `1`
+
+- [**#1**](https://github.com/seonwooj0810-homelab/homelab-gitops/pull/1 "fix(backend): 애플 로그인 자격증명을 접근 가능한 팀으로 교체") fix(backend): 애플 로그인 자격증명을 접근 가능한 팀으로 교체
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
 
