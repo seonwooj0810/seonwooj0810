@@ -8,7 +8,7 @@
 
 <!-- OSS-LIST:START -->
 
-**🔀 100 PRs merged · 26 projects**
+**🔀 67 PRs merged · 22 projects**
 
 **핵심 활동**
 
@@ -23,19 +23,17 @@
 
 **프로젝트별 요약**
 
-<img src="https://github.com/geonganghaegym.png" width="14" height="14"/> **[geonganghaegym-backend](https://github.com/geonganghaegym/geonganghaegym-backend)** `27`<br>
 <img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`<br>
 <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[feign](https://github.com/OpenFeign/feign)** `10`<br>
 <img src="https://github.com/qos-ch.png" width="14" height="14"/> **[logback](https://github.com/qos-ch/logback)** `6`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `4`<br>
-<img src="https://github.com/geonganghaegym.png" width="14" height="14"/> **[geonganghaegym-app](https://github.com/geonganghaegym/geonganghaegym-app)** `4`<br>
+<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
-<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`<br>
-<img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
 <img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
-<img src="https://github.com/seonwooj0810-homelab.png" width="14" height="14"/> **[homelab-gitops](https://github.com/seonwooj0810-homelab/homelab-gitops)** `1`<br>
+<img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
+<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
@@ -47,41 +45,9 @@
 <img src="https://github.com/mapstruct.png" width="14" height="14"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `1`<br>
 <img src="https://github.com/jreleaser.png" width="14" height="14"/> **[jreleaser](https://github.com/jreleaser/jreleaser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
-<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
-<img src="https://github.com/geonganghaegym.png" width="14" height="14"/> **[geonganghaegym-web](https://github.com/geonganghaegym/geonganghaegym-web)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (100건)</summary>
-
-<img src="https://github.com/geonganghaegym.png" width="16" height="16"/> **[geonganghaegym-backend](https://github.com/geonganghaegym/geonganghaegym-backend)** `27`
-
-- [**#85**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/85 "docs: 내부 아키텍처 설명 추가 (패키지·요청 흐름·런타임·테스트)") docs: 내부 아키텍처 설명 추가 (패키지·요청 흐름·런타임·테스트)
-- [**#84**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/84 "docs: 웹사이트 URL을 geonganghaejim.site로 수정") docs: 웹사이트 URL을 geonganghaejim.site로 수정
-- [**#83**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/83 "docs: backend README 초안 (FrontEnd 스타일 통일)") docs: backend README 초안 (FrontEnd 스타일 통일)
-- [**#82**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/82 "Master") Master
-- [**#81**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/81 "fix: &quot;도메인 변경으로 인한 코드 수정&quot;") fix: "도메인 변경으로 인한 코드 수정"
-- [**#77**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/77 "Feature/jsw/tbh 211  disabled ") Feature/jsw/tbh 211  disabled 
-- [**#75**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/75 "일정 조회 모델 변경") 일정 조회 모델 변경
-- [**#73**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/73 "merge") merge
-- [**#72**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/72 "FCM 푸시 전송 API 추가") FCM 푸시 전송 API 추가
-- [**#71**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/71 "Feature/jsw/schedule") Feature/jsw/schedule
-- [**#69**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/69 "페이징 커스텀 응답 및 답글에 부모 ID 프로퍼티 추가") 페이징 커스텀 응답 및 답글에 부모 ID 프로퍼티 추가
-- [**#67**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/67 "Feature/jsw/schedule") Feature/jsw/schedule
-- [**#64**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/64 "수업 일지 댓글 삭제 기능 수정") 수업 일지 댓글 삭제 기능 수정
-- [**#63**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/63 "수업일지 API 응답 변경") 수업일지 API 응답 변경
-- [**#60**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/60 "feat: &quot;학생이 내 예약 또는 대기를 조회하는 기능 구현&quot;") feat: "학생이 내 예약 또는 대기를 조회하는 기능 구현"
-- [**#59**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/59 "학생의 수업 상세 조회 기능 추가") 학생의 수업 상세 조회 기능 추가
-- [**#57**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/57 "fix: &quot;redis 설정 변경&quot;") fix: "redis 설정 변경"
-- [**#56**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/56 "수업일지 URI 변경, 메소드 리팩토링, 안쓰는 import 삭제") 수업일지 URI 변경, 메소드 리팩토링, 안쓰는 import 삭제
-- [**#44**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/44 "수업 내역 구현") 수업 내역 구현
-- [**#43**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/43 "jenkins 구현") jenkins 구현
-- [**#42**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/42 "fix: &quot;jenkins CI/CD 구현&quot;") fix: "jenkins CI/CD 구현"
-- [**#41**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/41 "develop -> master merge") develop -> master merge
-- [**#37**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/37 "수업 기록 구현 및 첨부파일 AWS S3 버킷 구현") 수업 기록 구현 및 첨부파일 AWS S3 버킷 구현
-- [**#36**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/36 "헬스장 인증번호 검증 기능 추가") 헬스장 인증번호 검증 기능 추가
-- [**#33**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/33 "Tbh 155  gym list") Tbh 155  gym list
-- [**#32**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/32 "Tbh 155  gym list") Tbh 155  gym list
-- [**#31**](https://github.com/geonganghaegym/geonganghaegym-backend/pull/31 "merge") merge
+<summary>프로젝트별 전체 보기 (67건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `18`
 
@@ -140,12 +106,11 @@
 - [**#5193**](https://github.com/swagger-api/swagger-core/pull/5193 "Restore inner property name from map key in handleUnwrapped") Restore inner property name from map key in handleUnwra…
 - [**#5186**](https://github.com/swagger-api/swagger-core/pull/5186 "fix: let explicit @Schema(format) override type-derived format (#5185)") fix: let explicit @Schema(format) override type-derived…
 
-<img src="https://github.com/geonganghaegym.png" width="16" height="16"/> **[geonganghaegym-app](https://github.com/geonganghaegym/geonganghaegym-app)** `4`
+<img src="https://github.com/spring-cloud.png" width="16" height="16"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`
 
-- [**#4**](https://github.com/geonganghaegym/geonganghaegym-app/pull/4 "feat: 트레이너 회원관리 수강권·포인트·예약 내역 이관 (웹 라우트 20→23/73)") feat: 트레이너 회원관리 수강권·포인트·예약 내역 이관 (웹 라우트 20→23/73)
-- [**#3**](https://github.com/geonganghaegym/geonganghaegym-app/pull/3 "feat: 두 홈·회원 마이페이지 9개·트레이너 회원관리 2개 이관 (웹 라우트 7→20/73)") feat: 두 홈·회원 마이페이지 9개·트레이너 회원관리 2개 이관 (웹 라우트 7→20/73)
-- [**#2**](https://github.com/geonganghaegym/geonganghaegym-app/pull/2 "feat: 헬스장 선택·약관 허브·가입완료 화면 이관 (웹 라우트 5→7/73)") feat: 헬스장 선택·약관 허브·가입완료 화면 이관 (웹 라우트 5→7/73)
-- [**#1**](https://github.com/geonganghaegym/geonganghaegym-app/pull/1 "feat: Flutter 마이그레이션 Phase 0~1 — 기반 + 온보딩·로그인·계정 찾기") feat: Flutter 마이그레이션 Phase 0~1 — 기반 + 온보딩·로그인·계정 찾기
+- [**#1416**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1416 "Fix HttpHeaders header-map params losing values via QueryMapEncoder") Fix HttpHeaders header-map params losing values via Que…
+- [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
+- [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
 
 <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`
 
@@ -159,25 +124,19 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/spring-cloud.png" width="16" height="16"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`
+<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
-- [**#1416**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1416 "Fix HttpHeaders header-map params losing values via QueryMapEncoder") Fix HttpHeaders header-map params losing values via Que…
-- [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
-- [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
+- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
+- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
 
 <img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
 
 - [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
 - [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
-<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
-- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
-
-<img src="https://github.com/seonwooj0810-homelab.png" width="16" height="16"/> **[homelab-gitops](https://github.com/seonwooj0810-homelab/homelab-gitops)** `1`
-
-- [**#1**](https://github.com/seonwooj0810-homelab/homelab-gitops/pull/1 "fix(backend): 애플 로그인 자격증명을 접근 가능한 팀으로 교체") fix(backend): 애플 로그인 자격증명을 접근 가능한 팀으로 교체
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
 
@@ -223,19 +182,11 @@
 
 - [**#5400**](https://github.com/spring-projects/spring-batch/pull/5400 "Propagate step context to worker threads in ChunkTaskExecutorItemWriter") Propagate step context to worker threads in ChunkTaskEx…
 
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
-
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
-
-<img src="https://github.com/geonganghaegym.png" width="16" height="16"/> **[geonganghaegym-web](https://github.com/geonganghaegym/geonganghaegym-web)** `1`
-
-- [**#120**](https://github.com/geonganghaegym/geonganghaegym-web/pull/120 "chore: update project configuration") chore: update project configuration
-
 </details>
 
 <!-- OSS-LIST:END -->
 
-→ [전체 PR 보기](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810&type=pullrequests)
+→ [전체 PR 보기](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810+-org%3Ageonganghaegym+-org%3Aseonwooj0810-homelab+-org%3Amalitda+-org%3Attalkkak-league&type=pullrequests)
 
 ## ✍️ Latest Posts
 
