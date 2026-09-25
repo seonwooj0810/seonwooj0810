@@ -11,11 +11,20 @@ cd "$(git rev-parse --show-toplevel)"
 
 USERNAME="seonwooj0810"
 EXCLUDE_RE='to-be-healthy|hanghae|PKSSUN|next-step|jinho-yoo-jack|ddak[-_]league'
-# 본인 소유 조직은 검색 쿼리에서 바로 뺀다. grep으로 나중에 거르면 per_page=100 한도를
+# 본인이 멤버인 조직은 검색 쿼리에서 바로 뺀다. grep으로 나중에 거르면 per_page=100 한도를
 # 본인 조직 PR이 먼저 차지해 외부 OSS PR이 잘린다.
 # ponytail: 단일 페이지(100건) 조회. 외부 PR이 100건을 넘으면 페이지네이션 필요
-OWN_ORGS=(geonganghaegym seonwooj0810-homelab malitda ttalkkak-league)
-ORG_FILTER=$(printf '+-org:%s' "${OWN_ORGS[@]}")
+#
+# 비공개 멤버십까지 보려면 read:org 토큰이 필요하다. Actions 기본 GITHUB_TOKEN으로는
+# user/orgs를 못 읽으므로 CI에서는 ORG_READ_TOKEN 시크릿(classic PAT, read:org)을 쓰고,
+# 로컬에서는 gh 로그인 토큰을 그대로 쓴다.
+# 조회가 실패하면 set -e로 여기서 중단된다 — 조직 필터 없이 갱신되면 본인 조직 PR이 다시 섞인다.
+OWN_ORGS=$(GH_TOKEN="${ORG_READ_TOKEN:-${GH_TOKEN:-$(gh auth token)}}" gh api --paginate user/orgs --jq '.[].login')
+if [ -z "$OWN_ORGS" ]; then
+  echo "갱신 실패: 소속 조직 목록이 비어 있다(ORG_READ_TOKEN 만료 여부 확인). README.md를 유지한다." >&2
+  exit 1
+fi
+ORG_FILTER=$(printf '+-org:%s' $OWN_ORGS)
 HIGHLIGHT_COUNT=8
 
 TSV=$(mktemp)
