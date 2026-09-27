@@ -12,7 +12,7 @@
 
 **핵심 활동**
 
-<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `⭐ 81k` [**#50734**](https://github.com/spring-projects/spring-boot/pull/50734 "High number of connections due to Mongo health indicator") High number of connections due to Mongo health indicator<br>
+<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `⭐ 82k` [**#50734**](https://github.com/spring-projects/spring-boot/pull/50734 "High number of connections due to Mongo health indicator") High number of connections due to Mongo health indicator<br>
 <img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `⭐ 60k` [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
 <img src="https://github.com/netty.png" width="18" height="18"/> **[netty](https://github.com/netty/netty)** `⭐ 35k` [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…<br>
 <img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…<br>
