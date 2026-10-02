@@ -193,8 +193,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-10-02 — [3KB 값은 본 테이블에 남고 1.5KB 값은 밖으로 나가는 이유 — PostgreSQL TOAST 4단계 루프](https://velog.io/@jungseonw00/postgresql-toast-four-pass-loop)
 - 2026-09-25 — [키 없는 Kafka 레코드는 왜 느린 브로커로 더 몰렸나 — Uniform Sticky 파티셔너&lpar;KIP-794&rpar;](https://velog.io/@jungseonw00/kafka-uniform-sticky-partitioner)
 - 2026-09-23 — [@TransactionalEventListener AFTER_COMMIT 리스너의 DB 쓰기는 왜 반영되지 않는가](https://velog.io/@jungseonw00/transactional-event-listener-after-commit-write-lost)
 - 2026-09-21 — [detached 엔티티를 merge&lpar;&rpar;하면 왜 UPDATE 전에 SELECT가 먼저 나가는가](https://velog.io/@jungseonw00/jpa-merge-detached-select-then-copy)
-- 2026-09-18 — [NAT를 꺼도 컨테이너가 안 열리는 이유 — Docker 브리지 routed 모드의 숨은 잠금](https://velog.io/@jungseonw00/docker-bridge-nat-vs-routed-direct-routing)
-- 2026-09-16 — [죽은 튜플이 하나도 없는 테이블도 VACUUM이 필요한 이유 — PostgreSQL XID Wraparound](https://velog.io/@jungseonw00/postgresql-xid-wraparound-vacuum-freeze)<!-- BLOG-POST-LIST:END -->
+- 2026-09-18 — [NAT를 꺼도 컨테이너가 안 열리는 이유 — Docker 브리지 routed 모드의 숨은 잠금](https://velog.io/@jungseonw00/docker-bridge-nat-vs-routed-direct-routing)<!-- BLOG-POST-LIST:END -->
