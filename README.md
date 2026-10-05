@@ -193,8 +193,8 @@
 [Why Driven Backend](https://velog.io/@jungseonw00) — velog
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-10-05 — [Kubernetes 노드 메모리가 바닥나면 누가 먼저 죽는가 — QoS 클래스가 아니라 usage − request](https://velog.io/@jungseonw00/kubernetes-qos-oom-eviction-order)
 - 2026-10-03 — [connect&lpar;&rpar;는 성공했는데 첫 요청이 멈추는 이유 — Linux listen backlog와 accept 큐 오버플로](https://velog.io/@jungseonw00/linux-listen-backlog-accept-queue-overflow)
 - 2026-10-03 — [카운터가 4 늘었는데 increase&lpar;&rpar;는 왜 5.33일까 — Prometheus rate의 경계 외삽](https://velog.io/@jungseonw00/prometheus-rate-extrapolation)
 - 2026-10-02 — [3KB 값은 본 테이블에 남고 1.5KB 값은 밖으로 나가는 이유 — PostgreSQL TOAST 4단계 루프](https://velog.io/@jungseonw00/postgresql-toast-four-pass-loop)
-- 2026-09-25 — [키 없는 Kafka 레코드는 왜 느린 브로커로 더 몰렸나 — Uniform Sticky 파티셔너&lpar;KIP-794&rpar;](https://velog.io/@jungseonw00/kafka-uniform-sticky-partitioner)
-- 2026-09-23 — [@TransactionalEventListener AFTER_COMMIT 리스너의 DB 쓰기는 왜 반영되지 않는가](https://velog.io/@jungseonw00/transactional-event-listener-after-commit-write-lost)<!-- BLOG-POST-LIST:END -->
+- 2026-09-25 — [키 없는 Kafka 레코드는 왜 느린 브로커로 더 몰렸나 — Uniform Sticky 파티셔너&lpar;KIP-794&rpar;](https://velog.io/@jungseonw00/kafka-uniform-sticky-partitioner)<!-- BLOG-POST-LIST:END -->
