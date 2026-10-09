@@ -72,7 +72,13 @@ TMP_SECTION=$(mktemp)
       num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3; cut[$1, cnt[$1]]=$4; url[$1, cnt[$1]]=$5
     }
     END {
-      print "**🔀 " total " PRs merged · " n " projects**"
+      print "<p>"
+      print "  <img alt=\"Merged PRs: " total "\" src=\"https://img.shields.io/badge/Merged_PRs-" total "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
+      print "  <img alt=\"Projects contributed: " n "\" src=\"https://img.shields.io/badge/Projects-" n "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
+      print "</p>"
+      print ""
+      print "<details>"
+      print "<summary>전체 기여 내역 · " total " PRs / " n " projects</summary>"
       print ""
 
       # 프로젝트를 스타 수 내림차순으로 재배열 — 외부 인정도 순위
@@ -141,6 +147,8 @@ TMP_SECTION=$(mktemp)
         print "</details>"
         print ""
       }
+      print "</details>"
+      print ""
     }
   ' "$STARS" "$TSV"
   echo "<!-- OSS-LIST:END -->"

@@ -1,14 +1,26 @@
-# 안녕하세요, 정선우입니다 👋
+<img src="assets/aurora-banner.png" width="100%" alt="Seonwoo Jung · Backend Engineer — Go deeper. Build better. 동작 원리를 이해하고, 더 나은 코드를 만들어갑니다."/>
 
-**Java/Spring 기반 백엔드 엔지니어**입니다. 매일 학습하고 기록하며, 동작 원리를 밑바닥부터 이해하는 것을 좋아합니다.
+## 안녕하세요, 정선우입니다 👋
 
-- 📝 꾸준히 [TIL](https://github.com/seonwooj0810/TIL) 작성 — Java/Spring/CS 심화 학습 노트
+**Java/Spring 기반 백엔드 엔지니어**입니다.<br>
+밑바닥의 원리를 탐구하고, 배운 것을 기록하며, 오픈소스에 기여합니다.
 
-## 🌱 Open Source Contributions
+<p>
+  <a href="https://velog.io/@jungseonw00"><img src="https://img.shields.io/badge/기술_블로그_↗-704ad1?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="기술 블로그"/></a>
+  <a href="https://github.com/seonwooj0810/TIL"><img src="https://img.shields.io/badge/TIL_·_학습_기록_↗-242438?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="TIL · Java/Spring/CS 학습 기록"/></a>
+</p>
+
+### `01 /` Open source contributions
 
 <!-- OSS-LIST:START -->
 
-**🔀 68 PRs merged · 22 projects**
+<p>
+  <img alt="Merged PRs: 68" src="https://img.shields.io/badge/Merged_PRs-68-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Projects contributed: 22" src="https://img.shields.io/badge/Projects-22-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+</p>
+
+<details>
+<summary>전체 기여 내역 · 68 PRs / 22 projects</summary>
 
 **핵심 활동**
 
@@ -185,17 +197,57 @@
 
 </details>
 
+</details>
+
 <!-- OSS-LIST:END -->
 
-→ [전체 PR 보기](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810+-org%3Ageonganghaegym+-org%3Aseonwooj0810-homelab+-org%3Amalitda+-org%3Attalkkak-league&type=pullrequests)
+<p>
+  <a href="https://github.com/spring-projects/spring-framework/pull/36935">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/spring-framework-dark.png"/>
+      <img src="assets/spring-framework-light.png" width="350" alt="Spring Framework #36935 · 라이프사이클 콜백의 CGLIB 검증 경고 개선"/>
+    </picture>
+  </a>
+  <a href="https://github.com/OpenFeign/feign/pull/3394">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/openfeign-dark.png"/>
+      <img src="assets/openfeign-light.png" width="350" alt="OpenFeign #3394 · 비동기 실행기의 ClassLoader 누수 수정"/>
+    </picture>
+  </a>
+</p>
 
-## ✍️ Latest Posts
+<p>
+  <a href="https://github.com/FasterXML/jackson-databind/pull/6076">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/jackson-databind-dark.png"/>
+      <img src="assets/jackson-databind-light.png" width="350" alt="Jackson Databind #6076 · @JsonValue에서 @JsonInclude 설정 반영"/>
+    </picture>
+  </a>
+  <a href="https://github.com/OpenAPITools/openapi-generator/pull/24009">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/openapi-generator-dark.png"/>
+      <img src="assets/openapi-generator-light.png" width="350" alt="OpenAPI Generator #24009 · 서로 다른 인라인 enum의 병합 문제 수정"/>
+    </picture>
+  </a>
+</p>
 
-[Why Driven Backend](https://velog.io/@jungseonw00) — velog
+[전체 PR 보기 ↗](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810+-org%3Ageonganghaegym+-org%3Aseonwooj0810-homelab+-org%3Amalitda+-org%3Attalkkak-league&type=pullrequests)
+
+### `02 /` Learning in public
+
+[Why Driven Backend ↗](https://velog.io/@jungseonw00) · Java / Spring / CS 학습과 기록
 
 <!-- BLOG-POST-LIST:START -->
 - 2026-10-07 — [스레드 32개를 붙여도 LongAdder 셀이 8개뿐인 이유 — Striped64의 base 우선과 NCPU 상한](https://velog.io/@jungseonw00/longadder-striped64-cell-striping)
 - 2026-10-05 — [Kubernetes 노드 메모리가 바닥나면 누가 먼저 죽는가 — QoS 클래스가 아니라 usage − request](https://velog.io/@jungseonw00/kubernetes-qos-oom-eviction-order)
 - 2026-10-03 — [connect&lpar;&rpar;는 성공했는데 첫 요청이 멈추는 이유 — Linux listen backlog와 accept 큐 오버플로](https://velog.io/@jungseonw00/linux-listen-backlog-accept-queue-overflow)
 - 2026-10-03 — [카운터가 4 늘었는데 increase&lpar;&rpar;는 왜 5.33일까 — Prometheus rate의 경계 외삽](https://velog.io/@jungseonw00/prometheus-rate-extrapolation)
-- 2026-10-02 — [3KB 값은 본 테이블에 남고 1.5KB 값은 밖으로 나가는 이유 — PostgreSQL TOAST 4단계 루프](https://velog.io/@jungseonw00/postgresql-toast-four-pass-loop)<!-- BLOG-POST-LIST:END -->
+- 2026-10-02 — [3KB 값은 본 테이블에 남고 1.5KB 값은 밖으로 나가는 이유 — PostgreSQL TOAST 4단계 루프](https://velog.io/@jungseonw00/postgresql-toast-four-pass-loop)
+<!-- BLOG-POST-LIST:END -->
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/closing-dark.png"/>
+  <img src="assets/closing-light.png" width="100%" alt="작은 질문에서, 더 깊은 이해로. 꾸준히 배우고 기록하는 백엔드 개발자."/>
+</picture>
