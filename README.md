@@ -238,12 +238,11 @@
 [Why Driven Backend ↗](https://velog.io/@jungseonw00) · Java / Spring / CS 학습과 기록
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-10-09 — [bcrypt는 왜 72바이트 뒤를 무시하는가 — EksBlowfish 키 스케줄과 cost의 정체](https://velog.io/@jungseonw00/bcrypt-eksblowfish-72-byte-limit)
 - 2026-10-07 — [스레드 32개를 붙여도 LongAdder 셀이 8개뿐인 이유 — Striped64의 base 우선과 NCPU 상한](https://velog.io/@jungseonw00/longadder-striped64-cell-striping)
 - 2026-10-05 — [Kubernetes 노드 메모리가 바닥나면 누가 먼저 죽는가 — QoS 클래스가 아니라 usage − request](https://velog.io/@jungseonw00/kubernetes-qos-oom-eviction-order)
 - 2026-10-03 — [connect&lpar;&rpar;는 성공했는데 첫 요청이 멈추는 이유 — Linux listen backlog와 accept 큐 오버플로](https://velog.io/@jungseonw00/linux-listen-backlog-accept-queue-overflow)
-- 2026-10-03 — [카운터가 4 늘었는데 increase&lpar;&rpar;는 왜 5.33일까 — Prometheus rate의 경계 외삽](https://velog.io/@jungseonw00/prometheus-rate-extrapolation)
-- 2026-10-02 — [3KB 값은 본 테이블에 남고 1.5KB 값은 밖으로 나가는 이유 — PostgreSQL TOAST 4단계 루프](https://velog.io/@jungseonw00/postgresql-toast-four-pass-loop)
-<!-- BLOG-POST-LIST:END -->
+- 2026-10-03 — [카운터가 4 늘었는데 increase&lpar;&rpar;는 왜 5.33일까 — Prometheus rate의 경계 외삽](https://velog.io/@jungseonw00/prometheus-rate-extrapolation)<!-- BLOG-POST-LIST:END -->
 
 <br>
 
