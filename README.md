@@ -15,19 +15,19 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 68" src="https://img.shields.io/badge/Merged_PRs-68-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 69" src="https://img.shields.io/badge/Merged_PRs-69-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 22" src="https://img.shields.io/badge/Projects-22-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
-<summary>전체 기여 내역 · 68 PRs / 22 projects</summary>
+<summary>전체 기여 내역 · 69 PRs / 22 projects</summary>
 
 **핵심 활동**
 
 <img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `⭐ 82k` [**#50734**](https://github.com/spring-projects/spring-boot/pull/50734 "High number of connections due to Mongo health indicator") High number of connections due to Mongo health indicator<br>
 <img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `⭐ 60k` [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
 <img src="https://github.com/netty.png" width="18" height="18"/> **[netty](https://github.com/netty/netty)** `⭐ 35k` [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…<br>
-<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#25130**](https://github.com/OpenAPITools/openapi-generator/pull/25130 "[kotlin][client] Respect explicit useJackson3=false with useSpringBoot4 on jvm-spring-restclient") [kotlin][client] Respect explicit useJackson3=false wit…<br>
+<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#25171**](https://github.com/OpenAPITools/openapi-generator/pull/25171 "[SPRING;KOTLIN-SPRING] fix: shift 1-based page default/bounds to Spring's 0-based page index") [SPRING;KOTLIN-SPRING] fix: shift 1-based page default/…<br>
 <img src="https://github.com/resilience4j.png" width="18" height="18"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `⭐ 11k` [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …<br>
 <img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** `⭐ 9.8k` [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
 <img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-security](https://github.com/spring-projects/spring-security)** `⭐ 9.6k` [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation<br>
@@ -35,7 +35,7 @@
 
 **프로젝트별 요약**
 
-<img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `19`<br>
+<img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`<br>
 <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[feign](https://github.com/OpenFeign/feign)** `10`<br>
 <img src="https://github.com/qos-ch.png" width="14" height="14"/> **[logback](https://github.com/qos-ch/logback)** `6`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`<br>
@@ -59,10 +59,11 @@
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (68건)</summary>
+<summary>프로젝트별 전체 보기 (69건)</summary>
 
-<img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `19`
+<img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
 
+- [**#25171**](https://github.com/OpenAPITools/openapi-generator/pull/25171 "[SPRING;KOTLIN-SPRING] fix: shift 1-based page default/bounds to Spring's 0-based page index") [SPRING;KOTLIN-SPRING] fix: shift 1-based page default/…
 - [**#25130**](https://github.com/OpenAPITools/openapi-generator/pull/25130 "[kotlin][client] Respect explicit useJackson3=false with useSpringBoot4 on jvm-spring-restclient") [kotlin][client] Respect explicit useJackson3=false wit…
 - [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…
 - [**#24649**](https://github.com/OpenAPITools/openapi-generator/pull/24649 "[Java] Fix generated build.gradle incompatible with Gradle 9") [Java] Fix generated build.gradle incompatible with Gra…
