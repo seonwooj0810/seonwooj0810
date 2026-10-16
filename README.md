@@ -239,11 +239,11 @@
 [Why Driven Backend ↗](https://velog.io/@jungseonw00) · Java / Spring / CS 학습과 기록
 
 <!-- BLOG-POST-LIST:START -->
-- 2026-10-16 — [죽은 타깃의 메트릭은 왜 5분이 아니라 바로 사라지는가 — Prometheus staleness 마커](https://velog.io/@jungseonw00/prometheus-staleness-marker)
-- 2026-10-14 — [inheritable에 넣은 capability는 왜 exec 뒤에 사라지는가 — Linux execve 변환 공식과 ambient set](https://velog.io/@jungseonw00/linux-capabilities-execve-ambient)
-- 2026-10-12 — [4KB씩 읽는데 왜 디스크는 128KB씩 읽는가 — Linux readahead 윈도와 PG_readahead 표식](https://velog.io/@jungseonw00/linux-readahead-window)
-- 2026-10-09 — [bcrypt는 왜 72바이트 뒤를 무시하는가 — EksBlowfish 키 스케줄과 cost의 정체](https://velog.io/@jungseonw00/bcrypt-eksblowfish-72-byte-limit)
-- 2026-10-07 — [스레드 32개를 붙여도 LongAdder 셀이 8개뿐인 이유 — Striped64의 base 우선과 NCPU 상한](https://velog.io/@jungseonw00/longadder-striped64-cell-striping)<!-- BLOG-POST-LIST:END -->
+- 2026-10-16 — [client-go 리더 선출은 renewTime을 안 믿고 내 시계를 믿는다](https://velog.io/@jungseonw00/client-go-leader-election-local-clock)
+- 2026-10-16 — [Prometheus는 죽은 타깃의 메트릭을 왜 바로 지울까 &lpar;staleness 마커&rpar;](https://velog.io/@jungseonw00/prometheus-staleness-marker)
+- 2026-10-14 — [Linux capability는 exec 뒤에 왜 사라질까 &lpar;ambient set&rpar;](https://velog.io/@jungseonw00/linux-capabilities-execve-ambient)
+- 2026-10-12 — [4KB씩 읽는데 디스크는 128KB씩 읽는 이유 &lpar;Linux readahead&rpar;](https://velog.io/@jungseonw00/linux-readahead-window)
+- 2026-10-09 — [bcrypt는 72바이트 뒤를 조용히 무시한다](https://velog.io/@jungseonw00/bcrypt-eksblowfish-72-byte-limit)<!-- BLOG-POST-LIST:END -->
 
 <br>
 
