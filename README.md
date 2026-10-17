@@ -1,18 +1,41 @@
-<img src="assets/aurora-banner.png" width="100%" alt="Seonwoo Jung · Backend Engineer — Go deeper. Build better. 동작 원리를 이해하고, 더 나은 코드를 만들어갑니다."/>
+<img src="assets/hero.webp" width="100%" alt="Seonwoo Jung · Backend Engineer — Go deeper. Solve better. 원리를 파악해야 문제를 제대로 풀 수 있다고 믿습니다."/>
 
-## 안녕하세요, 정선우입니다 👋
-
-**Java/Spring 기반 백엔드 엔지니어**입니다.<br>
-밑바닥의 원리를 탐구하고, 배운 것을 기록하며, 오픈소스에 기여합니다.
+**원리를 파악해야 문제를 잘 풀 수 있다고 믿는 Java/Spring 백엔드 엔지니어**입니다.<br>
+파고든 만큼 기록하고, 오픈소스로 돌려줍니다.
 
 <p>
   <a href="https://velog.io/@jungseonw00"><img src="https://img.shields.io/badge/기술_블로그_↗-704ad1?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="기술 블로그"/></a>
   <a href="https://github.com/seonwooj0810/TIL"><img src="https://img.shields.io/badge/TIL_·_학습_기록_↗-242438?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="TIL · Java/Spring/CS 학습 기록"/></a>
 </p>
 
-### `01 /` Open source contributions
+<img src="assets/section-oss.webp" width="100%" alt="Open source — 원리를 파악한 만큼, 직접 고칩니다."/>
+
+<p>
+  <a href="https://github.com/spring-projects/spring-boot/pull/50734"><img src="assets/card-spring-boot.webp" width="49%" alt="Spring Boot #50734 — Mongo health indicator의 커넥션 폭증 수정"/></a>
+  <a href="https://github.com/spring-projects/spring-framework/pull/36935"><img src="assets/card-spring-framework.webp" width="49%" alt="Spring Framework #36935 — 라이프사이클 콜백의 CGLIB 검증 경고 개선"/></a>
+  <a href="https://github.com/netty/netty/pull/17104"><img src="assets/card-netty.webp" width="49%" alt="Netty #17104 — 동시 deregistration 뒤 removeReadOp() NPE 수정"/></a>
+  <a href="https://github.com/OpenAPITools/openapi-generator/pull/25171"><img src="assets/card-openapi-generator.webp" width="49%" alt="OpenAPI Generator #25171 — Spring 페이징 기본값을 0-based 인덱스로 보정"/></a>
+</p>
 
 <!-- OSS-LIST:START -->
+
+<p>
+  <sub><b>CONTRIBUTED TO</b> · 아이콘을 누르면 해당 조직에 머지된 내 PR이 열립니다</sub><br>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AOpenAPITools+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-OpenAPITools.webp" width="52" alt="OpenAPITools"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AOpenFeign+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-OpenFeign.webp" width="52" alt="OpenFeign"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AFasterXML+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-FasterXML.webp" width="52" alt="FasterXML"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aqos-ch+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-qos-ch.webp" width="52" alt="qos-ch"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aswagger-api+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-swagger-api.webp" width="52" alt="swagger-api"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-projects+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-projects.webp" width="52" alt="spring-projects"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-cloud+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-cloud.webp" width="52" alt="spring-cloud"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Anetty+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-netty.webp" width="52" alt="netty"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspringdoc+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-springdoc.webp" width="52" alt="springdoc"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aliquibase+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-liquibase.webp" width="52" alt="liquibase"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amybatis+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mybatis.webp" width="52" alt="mybatis"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aresilience4j+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-resilience4j.webp" width="52" alt="resilience4j"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amapstruct+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mapstruct.webp" width="52" alt="mapstruct"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Ajreleaser+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-jreleaser.webp" width="52" alt="jreleaser"/></a>
+</p>
 
 <p>
   <img alt="Merged PRs: 69" src="https://img.shields.io/badge/Merged_PRs-69-704ad1?style=for-the-badge&amp;labelColor=242438"/>
@@ -202,41 +225,9 @@
 
 <!-- OSS-LIST:END -->
 
-<p>
-  <a href="https://github.com/spring-projects/spring-framework/pull/36935">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/spring-framework-dark.png"/>
-      <img src="assets/spring-framework-light.png" width="350" alt="Spring Framework #36935 · 라이프사이클 콜백의 CGLIB 검증 경고 개선"/>
-    </picture>
-  </a>
-  <a href="https://github.com/OpenFeign/feign/pull/3394">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/openfeign-dark.png"/>
-      <img src="assets/openfeign-light.png" width="350" alt="OpenFeign #3394 · 비동기 실행기의 ClassLoader 누수 수정"/>
-    </picture>
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/FasterXML/jackson-databind/pull/6076">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/jackson-databind-dark.png"/>
-      <img src="assets/jackson-databind-light.png" width="350" alt="Jackson Databind #6076 · @JsonValue에서 @JsonInclude 설정 반영"/>
-    </picture>
-  </a>
-  <a href="https://github.com/OpenAPITools/openapi-generator/pull/24009">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/openapi-generator-dark.png"/>
-      <img src="assets/openapi-generator-light.png" width="350" alt="OpenAPI Generator #24009 · 서로 다른 인라인 enum의 병합 문제 수정"/>
-    </picture>
-  </a>
-</p>
-
 [전체 PR 보기 ↗](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810+-org%3Ageonganghaegym+-org%3Aseonwooj0810-homelab+-org%3Amalitda+-org%3Attalkkak-league&type=pullrequests)
 
-### `02 /` Learning in public
-
-[Why Driven Backend ↗](https://velog.io/@jungseonw00) · Java / Spring / CS 학습과 기록
+<img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
 - 2026-10-16 — [client-go 리더 선출은 renewTime을 안 믿고 내 시계를 믿는다](https://velog.io/@jungseonw00/client-go-leader-election-local-clock)
@@ -245,9 +236,4 @@
 - 2026-10-12 — [4KB씩 읽는데 디스크는 128KB씩 읽는 이유 &lpar;Linux readahead&rpar;](https://velog.io/@jungseonw00/linux-readahead-window)
 - 2026-10-09 — [bcrypt는 72바이트 뒤를 조용히 무시한다](https://velog.io/@jungseonw00/bcrypt-eksblowfish-72-byte-limit)<!-- BLOG-POST-LIST:END -->
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/closing-dark.png"/>
-  <img src="assets/closing-light.png" width="100%" alt="작은 질문에서, 더 깊은 이해로. 꾸준히 배우고 기록하는 백엔드 개발자."/>
-</picture>
+[Why Driven Backend — 더 많은 글 ↗](https://velog.io/@jungseonw00) · [TIL ↗](https://github.com/seonwooj0810/TIL)

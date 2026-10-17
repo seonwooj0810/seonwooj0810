@@ -3,6 +3,7 @@
 # 팀/스터디 repo는 EXCLUDE_RE로 제외한다.
 #
 # 항목이 계속 늘어나므로 전부 펼쳐두지 않고 3단으로 압축한다:
+#   0) 기여한 조직 로고 행 (머지 건수 내림차순, 클릭하면 해당 조직의 내 머지 PR 검색)
 #   1) 핵심 활동 HIGHLIGHT_COUNT건 — 저장소 스타 수 상위 프로젝트에서 1건씩
 #   2) 프로젝트별 요약 (건수 내림차순, 한 줄에 하나씩)
 #   3) 나머지는 프로젝트별로 그룹핑해 <details> 접기 안에 (전체 건수 그대로 보존)
@@ -49,6 +50,10 @@ cut -f1 "$TSV" | sort -u | while IFS= read -r repo; do
   printf '%s\t%s\n' "$repo" "$(gh api "repos/${repo}" --jq '.stargazers_count' 2>/dev/null || echo 0)"
 done > "$STARS"
 
+# 조직 로고 타일(assets/icon-<org>.webp)이 미리 만들어진 조직 목록. 타일이 없는 새 조직은
+# 아래 awk에서 GitHub 아바타로 대체되므로, 새 조직에 기여해도 행에서 빠지지 않는다.
+ICONS=$(find assets -maxdepth 1 -name 'icon-*.webp' | sed -E 's#.*/icon-(.*)\.webp#\1#' | paste -sd, -)
+
 TMP_SECTION=$(mktemp)
 {
   echo "<!-- OSS-LIST:START -->"
@@ -56,7 +61,7 @@ TMP_SECTION=$(mktemp)
   # TSV 컬럼: 1=repo 2=번호 3=제목(전체, 툴팁용) 4=제목(잘림, 표시용) 5=URL 6=머지월
   # LC_ALL=C: awk를 바이트 모드로 돌린다. 여기서 쓰는 정규식·구분자는 전부 ASCII라
   # 문자 단위 해석이 필요 없고, UTF-8 본문은 바이트 그대로 통과시키는 게 안전하다.
-  LC_ALL=C awk -F'\t' -v highlight="$HIGHLIGHT_COUNT" '
+  LC_ALL=C awk -F'\t' -v highlight="$HIGHLIGHT_COUNT" -v user="$USERNAME" -v icons="$ICONS" '
     # 스타 수를 k 단위로 줄여 쓴다 (78432 -> 78k, 3600 -> 3.6k)
     function kfmt(s) {
       if (s >= 10000) return sprintf("%dk", int(s / 1000 + 0.5))
@@ -72,6 +77,31 @@ TMP_SECTION=$(mktemp)
       num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3; cut[$1, cnt[$1]]=$4; url[$1, cnt[$1]]=$5
     }
     END {
+      # 기여한 조직 로고 행 — 머지 건수가 많은 조직부터. 타일은 밝은 배경이라 어두운 테마에서도
+      # 검은 로고(resilience4j 등)가 보인다.
+      split(icons, iconList, ",")
+      for (k in iconList) haveIcon[iconList[k]] = 1
+      for (i = 1; i <= n; i++) {
+        o = order[i]; sub(/\/.*/, "", o)
+        if (!(o in oseen)) { oseen[o] = 1; olist[++m] = o }
+        ocnt[o] += cnt[order[i]]
+      }
+      for (i = 1; i <= m; i++) {
+        for (j = i + 1; j <= m; j++) {
+          if (ocnt[olist[j]] > ocnt[olist[i]]) { tmp = olist[i]; olist[i] = olist[j]; olist[j] = tmp }
+        }
+      }
+      print "<p>"
+      print "  <sub><b>CONTRIBUTED TO</b> · 아이콘을 누르면 해당 조직에 머지된 내 PR이 열립니다</sub><br>"
+      for (i = 1; i <= m; i++) {
+        o = olist[i]
+        src = (o in haveIcon) ? "assets/icon-" o ".webp" : "https://github.com/" o ".png?size=104"
+        # /pulls는 로그인 사용자 전용 대시보드라 방문자는 로그인 화면으로 간다. /search는 비로그인도 열린다.
+        print "  <a href=\"https://github.com/search?q=is%3Apr+author%3A" user "+org%3A" o "+is%3Amerged&amp;type=pullrequests\"><img src=\"" src "\" width=\"52\" alt=\"" o "\"/></a>"
+      }
+      print "</p>"
+      print ""
+
       print "<p>"
       print "  <img alt=\"Merged PRs: " total "\" src=\"https://img.shields.io/badge/Merged_PRs-" total "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
       print "  <img alt=\"Projects contributed: " n "\" src=\"https://img.shields.io/badge/Projects-" n "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
