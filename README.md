@@ -230,10 +230,10 @@
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-10-17 — [MCP stdio 서버는 이제 initialize 없이 요청을 받는다](https://velog.io/@jungseonw00/mcp-stdio-server-discover-probe)
 - 2026-10-16 — [client-go 리더 선출은 renewTime을 안 믿고 내 시계를 믿는다](https://velog.io/@jungseonw00/client-go-leader-election-local-clock)
 - 2026-10-16 — [Prometheus는 죽은 타깃의 메트릭을 왜 바로 지울까 &lpar;staleness 마커&rpar;](https://velog.io/@jungseonw00/prometheus-staleness-marker)
 - 2026-10-14 — [Linux capability는 exec 뒤에 왜 사라질까 &lpar;ambient set&rpar;](https://velog.io/@jungseonw00/linux-capabilities-execve-ambient)
-- 2026-10-12 — [4KB씩 읽는데 디스크는 128KB씩 읽는 이유 &lpar;Linux readahead&rpar;](https://velog.io/@jungseonw00/linux-readahead-window)
-- 2026-10-09 — [bcrypt는 72바이트 뒤를 조용히 무시한다](https://velog.io/@jungseonw00/bcrypt-eksblowfish-72-byte-limit)<!-- BLOG-POST-LIST:END -->
+- 2026-10-12 — [4KB씩 읽는데 디스크는 128KB씩 읽는 이유 &lpar;Linux readahead&rpar;](https://velog.io/@jungseonw00/linux-readahead-window)<!-- BLOG-POST-LIST:END -->
 
 [Why Driven Backend — 더 많은 글 ↗](https://velog.io/@jungseonw00) · [TIL ↗](https://github.com/seonwooj0810/TIL)
