@@ -1,4 +1,4 @@
-<img src="assets/hero.webp" width="100%" alt="Seonwoo Jung · Backend Engineer — Go deeper. Solve better. 원리를 파악해야 문제를 제대로 풀 수 있다고 믿습니다."/>
+<img src="assets/hero.webp" width="100%" alt="seonwooj0810 · Backend Engineer — Go deeper. Solve better. 원리를 파악해야 문제를 제대로 풀 수 있다고 믿습니다."/>
 
 <p>
   <a href="https://velog.io/@jungseonw00"><img src="https://img.shields.io/badge/기술_블로그_↗-704ad1?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="기술 블로그"/></a>
