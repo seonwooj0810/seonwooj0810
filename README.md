@@ -1,10 +1,5 @@
 <img src="assets/hero.webp" width="100%" alt="Seonwoo Jung · Backend Engineer — Go deeper. Solve better. 원리를 파악해야 문제를 제대로 풀 수 있다고 믿습니다."/>
 
-**원리를 파악해야 문제를 잘 풀 수 있다고 믿는 Java/Spring 백엔드 엔지니어**입니다.<br>
-파고든 만큼 기록하고, 오픈소스로 돌려줍니다.
-
-요즘은 AI·LLM에 관심이 많습니다. Java로 미니 LLM을 밑바닥부터 구현해 본 [llm-study](https://github.com/seonwooj0810/llm-study)가 있고, 모두의 창업과 해커톤에도 관심을 두고 있습니다.
-
 <p>
   <a href="https://velog.io/@jungseonw00"><img src="https://img.shields.io/badge/기술_블로그_↗-704ad1?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="기술 블로그"/></a>
   <a href="https://github.com/seonwooj0810/TIL"><img src="https://img.shields.io/badge/TIL_·_학습_기록_↗-242438?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="TIL · Java/Spring/CS 학습 기록"/></a>
