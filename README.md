@@ -25,9 +25,9 @@
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aswagger-api+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-swagger-api.webp" width="52" alt="swagger-api"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-projects+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-projects.webp" width="52" alt="spring-projects"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-cloud+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-cloud.webp" width="52" alt="spring-cloud"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aliquibase+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-liquibase.webp" width="52" alt="liquibase"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Anetty+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-netty.webp" width="52" alt="netty"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspringdoc+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-springdoc.webp" width="52" alt="springdoc"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aliquibase+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-liquibase.webp" width="52" alt="liquibase"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amybatis+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mybatis.webp" width="52" alt="mybatis"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aresilience4j+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-resilience4j.webp" width="52" alt="resilience4j"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amapstruct+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mapstruct.webp" width="52" alt="mapstruct"/></a>
@@ -35,12 +35,12 @@
 </p>
 
 <p>
-  <img alt="Merged PRs: 69" src="https://img.shields.io/badge/Merged_PRs-69-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 70" src="https://img.shields.io/badge/Merged_PRs-70-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 22" src="https://img.shields.io/badge/Projects-22-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
-<summary>전체 기여 내역 · 69 PRs / 22 projects</summary>
+<summary>전체 기여 내역 · 70 PRs / 22 projects</summary>
 
 **핵심 활동**
 
@@ -63,14 +63,14 @@
 <img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
-<img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
 <img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
-<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
+<img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
+<img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
 <img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
 <img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
-<img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`<br>
+<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
 <img src="https://github.com/resilience4j.png" width="14" height="14"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`<br>
 <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`<br>
@@ -79,7 +79,7 @@
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (69건)</summary>
+<summary>프로젝트별 전체 보기 (70건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
 
@@ -158,19 +158,20 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
-
-- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
-- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
-
 <img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
 
 - [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
 - [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
+<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
+- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
+
+<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
+
+- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
+- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
 
@@ -188,9 +189,9 @@
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `1`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
