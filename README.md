@@ -28,6 +28,7 @@
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aliquibase+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-liquibase.webp" width="52" alt="liquibase"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Anetty+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-netty.webp" width="52" alt="netty"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspringdoc+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-springdoc.webp" width="52" alt="springdoc"/></a>
+  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aeugeniughelbur+is%3Amerged&amp;type=pullrequests"><img src="https://github.com/eugeniughelbur.png?size=104" width="52" alt="eugeniughelbur"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amybatis+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mybatis.webp" width="52" alt="mybatis"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aresilience4j+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-resilience4j.webp" width="52" alt="resilience4j"/></a>
   <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amapstruct+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mapstruct.webp" width="52" alt="mapstruct"/></a>
@@ -35,12 +36,12 @@
 </p>
 
 <p>
-  <img alt="Merged PRs: 70" src="https://img.shields.io/badge/Merged_PRs-70-704ad1?style=for-the-badge&amp;labelColor=242438"/>
-  <img alt="Projects contributed: 22" src="https://img.shields.io/badge/Projects-22-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 71" src="https://img.shields.io/badge/Merged_PRs-71-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Projects contributed: 23" src="https://img.shields.io/badge/Projects-23-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
-<summary>전체 기여 내역 · 70 PRs / 22 projects</summary>
+<summary>전체 기여 내역 · 71 PRs / 23 projects</summary>
 
 **핵심 활동**
 
@@ -66,11 +67,12 @@
 <img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
 <img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
 <img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
-<img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
 <img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
+<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
+<img src="https://github.com/eugeniughelbur.png" width="14" height="14"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `1`<br>
+<img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
+<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
 <img src="https://github.com/resilience4j.png" width="14" height="14"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`<br>
 <img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`<br>
@@ -79,7 +81,7 @@
 <img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
 
 <details>
-<summary>프로젝트별 전체 보기 (70건)</summary>
+<summary>프로젝트별 전체 보기 (71건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
 
@@ -173,25 +175,29 @@
 - [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
 - [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
 
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
-
-- [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
-
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
 
 - [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
 
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
+
+- [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
+
+<img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `1`
+
+- [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
 
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
 
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
