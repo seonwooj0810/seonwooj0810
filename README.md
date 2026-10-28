@@ -1,10 +1,5 @@
 <img src="assets/hero.webp" width="100%" alt="seonwooj0810 · Backend Engineer — Go deeper. Solve better. 원리를 파악해야 문제를 제대로 풀 수 있다고 믿습니다."/>
 
-<p>
-  <a href="https://velog.io/@jungseonw00"><img src="https://img.shields.io/badge/기술_블로그_↗-704ad1?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="기술 블로그"/></a>
-  <a href="https://github.com/seonwooj0810/TIL"><img src="https://img.shields.io/badge/TIL_·_학습_기록_↗-242438?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="TIL · Java/Spring/CS 학습 기록"/></a>
-</p>
-
 <img src="assets/section-oss.webp" width="100%" alt="Open source — 원리를 파악한 만큼, 직접 고칩니다."/>
 
 <p>
