@@ -17,7 +17,7 @@
 </p>
 
 <details>
-<summary>전체 기여 내역 · 71 PRs / 23 projects</summary>
+<summary>전체 기여 내역</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
 
@@ -162,8 +162,6 @@
 </details>
 
 <!-- OSS-LIST:END -->
-
-[전체 PR 보기 ↗](https://github.com/search?q=author%3Aseonwooj0810+is%3Apr+-user%3Aseonwooj0810+-org%3Ageonganghaegym+-org%3Aseonwooj0810-homelab+-org%3Amalitda+-org%3Attalkkak-league&type=pullrequests)
 
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 

@@ -60,7 +60,7 @@ TMP_SECTION=$(mktemp)
       print "</p>"
       print ""
       print "<details>"
-      print "<summary>전체 기여 내역 · " total " PRs / " n " projects</summary>"
+      print "<summary>전체 기여 내역</summary>"
       print ""
 
       # 프로젝트를 건수 내림차순으로 재배열 (동률이면 최근 등장 순 유지)
