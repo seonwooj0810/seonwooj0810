@@ -168,8 +168,8 @@
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-10-28 — [temperature는 top_p 앞일까 뒤일까 — vLLM과 llama.cpp의 반대 순서](https://velog.io/@jungseonw00/temperature-top-p-sampler-order)
 - 2026-10-26 — [Claude 프롬프트 캐싱이 매번 쓰기만 하고 읽지 못하는 이유](https://velog.io/@jungseonw00/claude-prompt-cache-breakpoint-lookback)
 - 2026-10-23 — [Claude API tool_use는 다음 메시지에서 전부 닫혀야 한다](https://velog.io/@jungseonw00/claude-tool-use-tool-result-pairing)
 - 2026-10-21 — [BPE 토크나이저, 안녕하세요는 왜 14토큰에서 2토큰이 됐을까](https://velog.io/@jungseonw00/bpe-merge-order-korean-tokens)
-- 2026-10-19 — [pgvector HNSW 필터 검색이 LIMIT 10을 못 채우는 이유](https://velog.io/@jungseonw00/pgvector-hnsw-filter-iterative-scan)
-- 2026-10-17 — [MCP stdio 서버는 이제 initialize 없이 요청을 받는다](https://velog.io/@jungseonw00/mcp-stdio-server-discover-probe)<!-- BLOG-POST-LIST:END -->
+- 2026-10-19 — [pgvector HNSW 필터 검색이 LIMIT 10을 못 채우는 이유](https://velog.io/@jungseonw00/pgvector-hnsw-filter-iterative-scan)<!-- BLOG-POST-LIST:END -->
