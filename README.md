@@ -3,10 +3,12 @@
 <img src="assets/section-oss.webp" width="100%" alt="Open source — 원리를 파악한 만큼, 직접 고칩니다."/>
 
 <p>
-  <a href="https://github.com/spring-projects/spring-boot/pull/50734"><img src="assets/card-spring-boot.webp" width="49%" alt="Spring Boot #50734 — Mongo health indicator의 커넥션 폭증 수정"/></a>
-  <a href="https://github.com/spring-projects/spring-framework/pull/36935"><img src="assets/card-spring-framework.webp" width="49%" alt="Spring Framework #36935 — 라이프사이클 콜백의 CGLIB 검증 경고 개선"/></a>
+  <a href="https://github.com/spring-projects/spring-boot/pull/50734"><img src="assets/card-spring-boot.webp" width="49%" alt="Spring Boot #50734 — MongoDB 헬스체크가 DB 수만큼 접속을 열던 회귀 수정"/></a>
+  <a href="https://github.com/netty/netty/pull/17140"><img src="assets/card-netty-leak.webp" width="49%" alt="Netty #17140 — 재배포 뒤 옛 클래스 로더가 메모리에 남던 누수 수정"/></a>
+  <a href="https://github.com/qos-ch/logback/pull/1055"><img src="assets/card-logback.webp" width="49%" alt="Logback #1055 — 동시에 로거를 만들 때 개수가 틀어지던 경합 수정"/></a>
   <a href="https://github.com/netty/netty/pull/17104"><img src="assets/card-netty.webp" width="49%" alt="Netty #17104 — 동시 deregistration 뒤 removeReadOp() NPE 수정"/></a>
-  <a href="https://github.com/OpenAPITools/openapi-generator/pull/25171"><img src="assets/card-openapi-generator.webp" width="49%" alt="OpenAPI Generator #25171 — Spring 페이징 기본값을 0-based 인덱스로 보정"/></a>
+  <a href="https://github.com/OpenFeign/feign/pull/3394"><img src="assets/card-feign.webp" width="49%" alt="Feign #3394 — 재배포 뒤 옛 버전이 남던 공용 스레드 풀 누수 해결"/></a>
+  <a href="https://github.com/FasterXML/jackson-modules-java8/pull/386"><img src="assets/card-jackson-java8.webp" width="49%" alt="Jackson #386 — 날짜 JSON에서 빠지던 .000을 옵트인 옵션으로 해결"/></a>
 </p>
 
 <!-- OSS-LIST:START -->
