@@ -173,5 +173,3 @@
 - 2026-10-21 — [BPE 토크나이저, 안녕하세요는 왜 14토큰에서 2토큰이 됐을까](https://velog.io/@jungseonw00/bpe-merge-order-korean-tokens)
 - 2026-10-19 — [pgvector HNSW 필터 검색이 LIMIT 10을 못 채우는 이유](https://velog.io/@jungseonw00/pgvector-hnsw-filter-iterative-scan)
 - 2026-10-17 — [MCP stdio 서버는 이제 initialize 없이 요청을 받는다](https://velog.io/@jungseonw00/mcp-stdio-server-discover-probe)<!-- BLOG-POST-LIST:END -->
-
-[Why-Driven Engineering — 더 많은 글 ↗](https://velog.io/@jungseonw00) · [TIL ↗](https://github.com/seonwooj0810/TIL)
