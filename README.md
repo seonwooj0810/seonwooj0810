@@ -17,71 +17,12 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <sub><b>CONTRIBUTED TO</b> · 아이콘을 누르면 해당 조직에 머지된 내 PR이 열립니다</sub><br>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AOpenAPITools+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-OpenAPITools.webp" width="52" alt="OpenAPITools"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AOpenFeign+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-OpenFeign.webp" width="52" alt="OpenFeign"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3AFasterXML+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-FasterXML.webp" width="52" alt="FasterXML"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aqos-ch+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-qos-ch.webp" width="52" alt="qos-ch"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aswagger-api+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-swagger-api.webp" width="52" alt="swagger-api"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-projects+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-projects.webp" width="52" alt="spring-projects"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspring-cloud+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-spring-cloud.webp" width="52" alt="spring-cloud"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aliquibase+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-liquibase.webp" width="52" alt="liquibase"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Anetty+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-netty.webp" width="52" alt="netty"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aspringdoc+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-springdoc.webp" width="52" alt="springdoc"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aeugeniughelbur+is%3Amerged&amp;type=pullrequests"><img src="https://github.com/eugeniughelbur.png?size=104" width="52" alt="eugeniughelbur"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amybatis+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mybatis.webp" width="52" alt="mybatis"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Aresilience4j+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-resilience4j.webp" width="52" alt="resilience4j"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Amapstruct+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-mapstruct.webp" width="52" alt="mapstruct"/></a>
-  <a href="https://github.com/search?q=is%3Apr+author%3Aseonwooj0810+org%3Ajreleaser+is%3Amerged&amp;type=pullrequests"><img src="assets/icon-jreleaser.webp" width="52" alt="jreleaser"/></a>
-</p>
-
-<p>
   <img alt="Merged PRs: 71" src="https://img.shields.io/badge/Merged_PRs-71-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 23" src="https://img.shields.io/badge/Projects-23-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
 <summary>전체 기여 내역 · 71 PRs / 23 projects</summary>
-
-**핵심 활동**
-
-<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `⭐ 82k` [**#50734**](https://github.com/spring-projects/spring-boot/pull/50734 "High number of connections due to Mongo health indicator") High number of connections due to Mongo health indicator<br>
-<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `⭐ 60k` [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks<br>
-<img src="https://github.com/netty.png" width="18" height="18"/> **[netty](https://github.com/netty/netty)** `⭐ 35k` [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…<br>
-<img src="https://github.com/OpenAPITools.png" width="18" height="18"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `⭐ 27k` [**#25171**](https://github.com/OpenAPITools/openapi-generator/pull/25171 "[SPRING;KOTLIN-SPRING] fix: shift 1-based page default/bounds to Spring's 0-based page index") [SPRING;KOTLIN-SPRING] fix: shift 1-based page default/…<br>
-<img src="https://github.com/resilience4j.png" width="18" height="18"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `⭐ 11k` [**#2478**](https://github.com/resilience4j/resilience4j/pull/2478 "Preserve durationSupplierType when copying HedgeConfig (#2457)") Preserve durationSupplierType when copying HedgeConfig …<br>
-<img src="https://github.com/OpenFeign.png" width="18" height="18"/> **[feign](https://github.com/OpenFeign/feign)** `⭐ 9.8k` [**#3507**](https://github.com/OpenFeign/feign/pull/3507 "Avoid default Content-Type on POST/PUT/PATCH with empty body") Avoid default Content-Type on POST/PUT/PATCH with empty…<br>
-<img src="https://github.com/spring-projects.png" width="18" height="18"/> **[spring-security](https://github.com/spring-projects/spring-security)** `⭐ 9.7k` [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation<br>
-<img src="https://github.com/mapstruct.png" width="18" height="18"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `⭐ 7.7k` [**#4061**](https://github.com/mapstruct/mapstruct/pull/4061 "#4060 Report compilation error for SET_TO_DEFAULT without accessible no-args constructor") #4060 Report compilation error for SET_TO_DEFAULT witho…<br>
-
-**프로젝트별 요약**
-
-<img src="https://github.com/OpenAPITools.png" width="14" height="14"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`<br>
-<img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[feign](https://github.com/OpenFeign/feign)** `10`<br>
-<img src="https://github.com/qos-ch.png" width="14" height="14"/> **[logback](https://github.com/qos-ch/logback)** `6`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-databind](https://github.com/FasterXML/jackson-databind)** `4`<br>
-<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-core](https://github.com/swagger-api/swagger-core)** `4`<br>
-<img src="https://github.com/spring-cloud.png" width="14" height="14"/> **[spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign)** `3`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-core](https://github.com/FasterXML/jackson-core)** `3`<br>
-<img src="https://github.com/netty.png" width="14" height="14"/> **[netty](https://github.com/netty/netty)** `2`<br>
-<img src="https://github.com/springdoc.png" width="14" height="14"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`<br>
-<img src="https://github.com/liquibase.png" width="14" height="14"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`<br>
-<img src="https://github.com/swagger-api.png" width="14" height="14"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`<br>
-<img src="https://github.com/eugeniughelbur.png" width="14" height="14"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `1`<br>
-<img src="https://github.com/mybatis.png" width="14" height="14"/> **[spring](https://github.com/mybatis/spring)** `1`<br>
-<img src="https://github.com/FasterXML.png" width="14" height="14"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`<br>
-<img src="https://github.com/resilience4j.png" width="14" height="14"/> **[resilience4j](https://github.com/resilience4j/resilience4j)** `1`<br>
-<img src="https://github.com/OpenFeign.png" width="14" height="14"/> **[querydsl](https://github.com/OpenFeign/querydsl)** `1`<br>
-<img src="https://github.com/mapstruct.png" width="14" height="14"/> **[mapstruct](https://github.com/mapstruct/mapstruct)** `1`<br>
-<img src="https://github.com/jreleaser.png" width="14" height="14"/> **[jreleaser](https://github.com/jreleaser/jreleaser)** `1`<br>
-<img src="https://github.com/spring-projects.png" width="14" height="14"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`<br>
-
-<details>
-<summary>프로젝트별 전체 보기 (71건)</summary>
 
 <img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
 
@@ -222,8 +163,6 @@
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-batch](https://github.com/spring-projects/spring-batch)** `1`
 
 - [**#5400**](https://github.com/spring-projects/spring-batch/pull/5400 "Propagate step context to worker threads in ChunkTaskExecutorItemWriter") Propagate step context to worker threads in ChunkTaskEx…
-
-</details>
 
 </details>
 

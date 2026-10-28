@@ -2,11 +2,8 @@
 # README.md의 OSS-LIST 마커 사이를 머지된 외부 OSS PR 목록으로 갱신한다.
 # 팀/스터디 repo는 EXCLUDE_RE로 제외한다.
 #
-# 항목이 계속 늘어나므로 전부 펼쳐두지 않고 3단으로 압축한다:
-#   0) 기여한 조직 로고 행 (머지 건수 내림차순, 클릭하면 해당 조직의 내 머지 PR 검색)
-#   1) 핵심 활동 HIGHLIGHT_COUNT건 — 저장소 스타 수 상위 프로젝트에서 1건씩
-#   2) 프로젝트별 요약 (건수 내림차순, 한 줄에 하나씩)
-#   3) 나머지는 프로젝트별로 그룹핑해 <details> 접기 안에 (전체 건수 그대로 보존)
+# 항목이 계속 늘어나므로 전부 펼쳐두지 않는다: 머지 건수 배지 아래 <details> 접기 안에
+# 프로젝트별(건수 내림차순)로 그룹핑한 전체 목록을 둔다.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
@@ -26,7 +23,6 @@ if [ -z "$OWN_ORGS" ]; then
   exit 1
 fi
 ORG_FILTER=$(printf '+-org:%s' $OWN_ORGS)
-HIGHLIGHT_COUNT=8
 
 TSV=$(mktemp)
 # 제목 자르기는 여기(jq)에서 끝낸다. awk의 length()/substr()는 바이트 기준이라
@@ -43,17 +39,6 @@ gh api "search/issues?q=author:${USERNAME}+type:pr+is:merged+-user:${USERNAME}${
           ] | @tsv' \
   | grep -Ev "$EXCLUDE_RE" > "$TSV" || true
 
-# 저장소별 스타 수를 조회한다. "핵심 활동"은 외부인이 봤을 때의 인정도 순으로
-# 세워야 하는데, 그 대리 지표로 스타 수를 쓴다. 조회 실패한 repo는 0으로 둔다.
-STARS=$(mktemp)
-cut -f1 "$TSV" | sort -u | while IFS= read -r repo; do
-  printf '%s\t%s\n' "$repo" "$(gh api "repos/${repo}" --jq '.stargazers_count' 2>/dev/null || echo 0)"
-done > "$STARS"
-
-# 조직 로고 타일(assets/icon-<org>.webp)이 미리 만들어진 조직 목록. 타일이 없는 새 조직은
-# 아래 awk에서 GitHub 아바타로 대체되므로, 새 조직에 기여해도 행에서 빠지지 않는다.
-ICONS=$(find assets -maxdepth 1 -name 'icon-*.webp' | sed -E 's#.*/icon-(.*)\.webp#\1#' | paste -sd, -)
-
 TMP_SECTION=$(mktemp)
 {
   echo "<!-- OSS-LIST:START -->"
@@ -61,15 +46,7 @@ TMP_SECTION=$(mktemp)
   # TSV 컬럼: 1=repo 2=번호 3=제목(전체, 툴팁용) 4=제목(잘림, 표시용) 5=URL 6=머지월
   # LC_ALL=C: awk를 바이트 모드로 돌린다. 여기서 쓰는 정규식·구분자는 전부 ASCII라
   # 문자 단위 해석이 필요 없고, UTF-8 본문은 바이트 그대로 통과시키는 게 안전하다.
-  LC_ALL=C awk -F'\t' -v highlight="$HIGHLIGHT_COUNT" -v user="$USERNAME" -v icons="$ICONS" '
-    # 스타 수를 k 단위로 줄여 쓴다 (78432 -> 78k, 3600 -> 3.6k)
-    function kfmt(s) {
-      if (s >= 10000) return sprintf("%dk", int(s / 1000 + 0.5))
-      if (s >= 1000)  return sprintf("%.1fk", s / 1000)
-      return s ""
-    }
-    # 첫 번째 파일(STARS)은 repo -> 스타 수 매핑
-    NR == FNR { star[$1] = $2 + 0; next }
+  LC_ALL=C awk -F'\t' '
     !($1 in seen) { order[++n]=$1; seen[$1]=1 }
     {
       total++
@@ -77,31 +54,6 @@ TMP_SECTION=$(mktemp)
       num[$1, cnt[$1]]=$2; ttl[$1, cnt[$1]]=$3; cut[$1, cnt[$1]]=$4; url[$1, cnt[$1]]=$5
     }
     END {
-      # 기여한 조직 로고 행 — 머지 건수가 많은 조직부터. 타일은 밝은 배경이라 어두운 테마에서도
-      # 검은 로고(resilience4j 등)가 보인다.
-      split(icons, iconList, ",")
-      for (k in iconList) haveIcon[iconList[k]] = 1
-      for (i = 1; i <= n; i++) {
-        o = order[i]; sub(/\/.*/, "", o)
-        if (!(o in oseen)) { oseen[o] = 1; olist[++m] = o }
-        ocnt[o] += cnt[order[i]]
-      }
-      for (i = 1; i <= m; i++) {
-        for (j = i + 1; j <= m; j++) {
-          if (ocnt[olist[j]] > ocnt[olist[i]]) { tmp = olist[i]; olist[i] = olist[j]; olist[j] = tmp }
-        }
-      }
-      print "<p>"
-      print "  <sub><b>CONTRIBUTED TO</b> · 아이콘을 누르면 해당 조직에 머지된 내 PR이 열립니다</sub><br>"
-      for (i = 1; i <= m; i++) {
-        o = olist[i]
-        src = (o in haveIcon) ? "assets/icon-" o ".webp" : "https://github.com/" o ".png?size=104"
-        # /pulls는 로그인 사용자 전용 대시보드라 방문자는 로그인 화면으로 간다. /search는 비로그인도 열린다.
-        print "  <a href=\"https://github.com/search?q=is%3Apr+author%3A" user "+org%3A" o "+is%3Amerged&amp;type=pullrequests\"><img src=\"" src "\" width=\"52\" alt=\"" o "\"/></a>"
-      }
-      print "</p>"
-      print ""
-
       print "<p>"
       print "  <img alt=\"Merged PRs: " total "\" src=\"https://img.shields.io/badge/Merged_PRs-" total "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
       print "  <img alt=\"Projects contributed: " n "\" src=\"https://img.shields.io/badge/Projects-" n "-704ad1?style=for-the-badge&amp;labelColor=242438\"/>"
@@ -109,31 +61,6 @@ TMP_SECTION=$(mktemp)
       print ""
       print "<details>"
       print "<summary>전체 기여 내역 · " total " PRs / " n " projects</summary>"
-      print ""
-
-      # 프로젝트를 스타 수 내림차순으로 재배열 — 외부 인정도 순위
-      for (i = 1; i <= n; i++) byStar[i] = order[i]
-      for (i = 1; i <= n; i++) {
-        for (j = i + 1; j <= n; j++) {
-          if (star[byStar[j]] > star[byStar[i]]) {
-            tmp = byStar[i]; byStar[i] = byStar[j]; byStar[j] = tmp
-          }
-        }
-      }
-
-      # 인정도 상위 프로젝트에서 가장 최근 머지된 PR을 1건씩 뽑는다.
-      # 프로젝트당 1건으로 제한해야 알아보는 이름이 더 많이 노출된다.
-      print "**핵심 활동**"
-      print ""
-      lim = (n < highlight) ? n : highlight
-      for (i = 1; i <= lim; i++) {
-        r = byStar[i]
-        org = r; sub(/\/.*/, "", org)
-        short = r; sub(/^[^\/]*\//, "", short)
-        logo = "<img src=\"https://github.com/" org ".png\" width=\"18\" height=\"18\"/>"
-        full = ttl[r, 1]; gsub(/"/, "\\&quot;", full)
-        print logo " **[" short "](https://github.com/" r ")** `⭐ " kfmt(star[r]) "` [**#" num[r, 1] "**](" url[r, 1] " \"" full "\") " cut[r, 1] "<br>"
-      }
       print ""
 
       # 프로젝트를 건수 내림차순으로 재배열 (동률이면 최근 등장 순 유지)
@@ -146,41 +73,23 @@ TMP_SECTION=$(mktemp)
         }
       }
 
-      print "**프로젝트별 요약**"
-      print ""
       for (i = 1; i <= n; i++) {
         r = rank[i]
         org = r; sub(/\/.*/, "", org)
         short = r; sub(/^[^\/]*\//, "", short)
-        logo = "<img src=\"https://github.com/" org ".png\" width=\"14\" height=\"14\"/>"
-        print logo " **[" short "](https://github.com/" r ")** `" cnt[r] "`<br>"
-      }
-      print ""
-
-      if (total > lim) {
-        print "<details>"
-        print "<summary>프로젝트별 전체 보기 (" total "건)</summary>"
+        logo = "<img src=\"https://github.com/" org ".png\" width=\"16\" height=\"16\"/>"
+        print logo " **[" short "](https://github.com/" r ")** `" cnt[r] "`"
         print ""
-        for (i = 1; i <= n; i++) {
-          r = rank[i]
-          org = r; sub(/\/.*/, "", org)
-          short = r; sub(/^[^\/]*\//, "", short)
-          logo = "<img src=\"https://github.com/" org ".png\" width=\"16\" height=\"16\"/>"
-          print logo " **[" short "](https://github.com/" r ")** `" cnt[r] "`"
-          print ""
-          for (j = 1; j <= cnt[r]; j++) {
-            full = ttl[r, j]; gsub(/"/, "\\&quot;", full)
-            print "- [**#" num[r, j] "**](" url[r, j] " \"" full "\") " cut[r, j]
-          }
-          print ""
+        for (j = 1; j <= cnt[r]; j++) {
+          full = ttl[r, j]; gsub(/"/, "\\&quot;", full)
+          print "- [**#" num[r, j] "**](" url[r, j] " \"" full "\") " cut[r, j]
         }
-        print "</details>"
         print ""
       }
       print "</details>"
       print ""
     }
-  ' "$STARS" "$TSV"
+  ' "$TSV"
   echo "<!-- OSS-LIST:END -->"
 } > "$TMP_SECTION"
 
@@ -211,5 +120,5 @@ if ! iconv -f UTF-8 -t UTF-8 README.md.tmp > /dev/null 2>&1; then
 fi
 mv README.md.tmp README.md
 
-rm -f "$TSV" "$STARS" "$TMP_SECTION"
+rm -f "$TSV" "$TMP_SECTION"
 echo "OSS 목록 갱신 완료"
