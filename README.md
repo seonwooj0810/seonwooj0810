@@ -14,7 +14,7 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 71" src="https://img.shields.io/badge/Merged_PRs-71-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 72" src="https://img.shields.io/badge/Merged_PRs-72-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 23" src="https://img.shields.io/badge/Projects-23-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
@@ -98,44 +98,45 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
+<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
 
-- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
-- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
+- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
+- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
+
+<img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `2`
+
+- [**#378**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/378 "Fix folder ingest dropping DOCX/DOC/ODT as unsupported") Fix folder ingest dropping DOCX/DOC/ODT as unsupported
+- [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
 
 <img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
 - [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
 - [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
 
-<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
+<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
 
-- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
-- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
-
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
-
-- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
-
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
-
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
+- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
 
 - [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
 
-<img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `1`
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
 
-- [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
+- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
+
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
