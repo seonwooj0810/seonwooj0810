@@ -14,15 +14,16 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 72" src="https://img.shields.io/badge/Merged_PRs-72-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 73" src="https://img.shields.io/badge/Merged_PRs-73-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 23" src="https://img.shields.io/badge/Projects-23-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
 <summary>전체 기여 내역</summary>
 
-<img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `20`
+<img src="https://github.com/OpenAPITools.png" width="16" height="16"/> **[openapi-generator](https://github.com/OpenAPITools/openapi-generator)** `21`
 
+- [**#24934**](https://github.com/OpenAPITools/openapi-generator/pull/24934 "fix(java): don't emit unqualified enum default for discriminator ref-to-property") fix(java): don't emit unqualified enum default for disc…
 - [**#25171**](https://github.com/OpenAPITools/openapi-generator/pull/25171 "[SPRING;KOTLIN-SPRING] fix: shift 1-based page default/bounds to Spring's 0-based page index") [SPRING;KOTLIN-SPRING] fix: shift 1-based page default/…
 - [**#25130**](https://github.com/OpenAPITools/openapi-generator/pull/25130 "[kotlin][client] Respect explicit useJackson3=false with useSpringBoot4 on jvm-spring-restclient") [kotlin][client] Respect explicit useJackson3=false wit…
 - [**#24009**](https://github.com/OpenAPITools/openapi-generator/pull/24009 "[BUG] fix(InlineModelResolver): do not merge distinct inline enums sharing the same values (#23978)") [BUG] fix(InlineModelResolver): do not merge distinct i…
@@ -98,15 +99,15 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
-
-- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
-- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
-
 <img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `2`
 
 - [**#378**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/378 "Fix folder ingest dropping DOCX/DOC/ODT as unsupported") Fix folder ingest dropping DOCX/DOC/ODT as unsupported
 - [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
+
+<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
+
+- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
+- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
 
 <img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
