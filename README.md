@@ -174,8 +174,8 @@
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-11-04 — [GGUF Q4_K_M은 왜 4비트보다 클까 — Llama-3-8B는 4.89비트](https://velog.io/@jungseonw00/gguf-q4-k-m-bits-per-weight)
 - 2026-11-02 — [vLLM speculative decoding이 기각 토큰을 다시 뽑는 이유](https://velog.io/@jungseonw00/speculative-decoding-rejection-sampling)
 - 2026-10-30 — [Claude compaction 비용은 usage.input_tokens에 잡히지 않는다](https://velog.io/@jungseonw00/claude-compaction-usage-iterations)
 - 2026-10-28 — [temperature는 top_p 앞일까 뒤일까 — vLLM과 llama.cpp의 반대 순서](https://velog.io/@jungseonw00/temperature-top-p-sampler-order)
-- 2026-10-26 — [Claude 프롬프트 캐싱이 매번 쓰기만 하고 읽지 못하는 이유](https://velog.io/@jungseonw00/claude-prompt-cache-breakpoint-lookback)
-- 2026-10-23 — [Claude API tool_use는 다음 메시지에서 전부 닫혀야 한다](https://velog.io/@jungseonw00/claude-tool-use-tool-result-pairing)<!-- BLOG-POST-LIST:END -->
+- 2026-10-26 — [Claude 프롬프트 캐싱이 매번 쓰기만 하고 읽지 못하는 이유](https://velog.io/@jungseonw00/claude-prompt-cache-breakpoint-lookback)<!-- BLOG-POST-LIST:END -->
