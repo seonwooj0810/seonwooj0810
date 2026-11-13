@@ -182,8 +182,8 @@
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-11-13 — [LoRA lora_alpha/r와 rsLoRA α/√r는 무엇이 다를까](https://velog.io/@jungseonw00/lora-alpha-rank-rslora-scaling)
 - 2026-11-09 — [vLLM은 Llama-3.1-8B를 띄우기 전에 KV 캐시 16GiB부터 요구한다](https://velog.io/@jungseonw00/vllm-kv-cache-memory-budget)
 - 2026-11-09 — [vLLM tool_choice auto에서 도구 호출이 content로 새는 이유](https://velog.io/@jungseonw00/vllm-tool-choice-auto-strict)
 - 2026-11-04 — [GGUF Q4_K_M은 왜 4비트보다 클까 — Llama-3-8B는 4.89비트](https://velog.io/@jungseonw00/gguf-q4-k-m-bits-per-weight)
-- 2026-11-02 — [vLLM speculative decoding이 기각 토큰을 다시 뽑는 이유](https://velog.io/@jungseonw00/speculative-decoding-rejection-sampling)
-- 2026-10-30 — [Claude compaction 비용은 usage.input_tokens에 잡히지 않는다](https://velog.io/@jungseonw00/claude-compaction-usage-iterations)<!-- BLOG-POST-LIST:END -->
+- 2026-11-02 — [vLLM speculative decoding이 기각 토큰을 다시 뽑는 이유](https://velog.io/@jungseonw00/speculative-decoding-rejection-sampling)<!-- BLOG-POST-LIST:END -->
