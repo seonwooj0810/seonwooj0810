@@ -14,7 +14,7 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 76" src="https://img.shields.io/badge/Merged_PRs-76-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 77" src="https://img.shields.io/badge/Merged_PRs-77-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 26" src="https://img.shields.io/badge/Projects-26-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
@@ -87,6 +87,12 @@
 - [**#1384**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1384 "Fix concurrent initialization race in FeignHttpMessageConverters") Fix concurrent initialization race in FeignHttpMessageC…
 - [**#1378**](https://github.com/spring-cloud/spring-cloud-openfeign/pull/1378 "Fix unconditional overwrite of resolved fallbackFactory in FeignClientsRegistrar") Fix unconditional overwrite of resolved fallbackFactory…
 
+<img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `3`
+
+- [**#405**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/405 "Read the semantic index as UTF-8 so non-ASCII vaults work on Windows (#404)") Read the semantic index as UTF-8 so non-ASCII vaults wo…
+- [**#378**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/378 "Fix folder ingest dropping DOCX/DOC/ODT as unsupported") Fix folder ingest dropping DOCX/DOC/ODT as unsupported
+- [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
+
 <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-dataformats-text](https://github.com/FasterXML/jackson-dataformats-text)** `3`
 
 - [**#703**](https://github.com/FasterXML/jackson-dataformats-text/pull/703 "Add name-based column modification to `CsvSchema.Builder` (#699)") Add name-based column modification to `CsvSchema.Builde…
@@ -99,29 +105,24 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/eugeniughelbur.png" width="16" height="16"/> **[obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)** `2`
+<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
 
-- [**#378**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/378 "Fix folder ingest dropping DOCX/DOC/ODT as unsupported") Fix folder ingest dropping DOCX/DOC/ODT as unsupported
-- [**#362**](https://github.com/eugeniughelbur/obsidian-second-brain/pull/362 "Fix precedence note naming plugins installed for another project") Fix precedence note naming plugins installed for anothe…
-
-<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
-
-- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
-- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
+- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
+- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
 <img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
 - [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
 - [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
 
-<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
+<img src="https://github.com/liquibase.png" width="16" height="16"/> **[liquibase](https://github.com/liquibase/liquibase)** `2`
 
-- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
-- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
+- [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
+- [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
 
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-amqp](https://github.com/spring-projects/spring-amqp)** `1`
+<img src="https://github.com/dbeaver.png" width="16" height="16"/> **[dbeaver](https://github.com/dbeaver/dbeaver)** `1`
 
-- [**#3843**](https://github.com/spring-projects/spring-amqp/pull/3843 "GH-3839: Call stateless retry recoverer in AMQP 1.0 container") GH-3839: Call stateless retry recoverer in AMQP 1.0 con…
+- [**#42665**](https://github.com/dbeaver/dbeaver/pull/42665 "dbeaver/dbeaver#41407 Hide internal Firebird domains from column type list") dbeaver/dbeaver#41407 Hide internal Firebird domains fr…
 
 <img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
 
@@ -131,9 +132,9 @@
 
 - [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
 
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-tools](https://github.com/spring-projects/spring-tools)** `1`
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-amqp](https://github.com/spring-projects/spring-amqp)** `1`
 
-- [**#2071**](https://github.com/spring-projects/spring-tools/pull/2071 "GH-1832: put the API version into the version path segment of live request mapping URLs") GH-1832: put the API version into the version path segm…
+- [**#3843**](https://github.com/spring-projects/spring-amqp/pull/3843 "GH-3839: Call stateless retry recoverer in AMQP 1.0 container") GH-3839: Call stateless retry recoverer in AMQP 1.0 con…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
 
@@ -147,9 +148,9 @@
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/dbeaver.png" width="16" height="16"/> **[dbeaver](https://github.com/dbeaver/dbeaver)** `1`
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-tools](https://github.com/spring-projects/spring-tools)** `1`
 
-- [**#42665**](https://github.com/dbeaver/dbeaver/pull/42665 "dbeaver/dbeaver#41407 Hide internal Firebird domains from column type list") dbeaver/dbeaver#41407 Hide internal Firebird domains fr…
+- [**#2071**](https://github.com/spring-projects/spring-tools/pull/2071 "GH-1832: put the API version into the version path segment of live request mapping URLs") GH-1832: put the API version into the version path segm…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
