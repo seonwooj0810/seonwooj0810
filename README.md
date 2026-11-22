@@ -14,8 +14,8 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 78" src="https://img.shields.io/badge/Merged_PRs-78-704ad1?style=for-the-badge&amp;labelColor=242438"/>
-  <img alt="Projects contributed: 27" src="https://img.shields.io/badge/Projects-27-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 79" src="https://img.shields.io/badge/Merged_PRs-79-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Projects contributed: 28" src="https://img.shields.io/badge/Projects-28-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
 <details>
@@ -120,41 +120,45 @@
 - [**#8049**](https://github.com/liquibase/liquibase/pull/8049 "Log SQL run through JdbcExecutor query and update paths at liquibase.sql.logLevel") Log SQL run through JdbcExecutor query and update paths…
 - [**#7812**](https://github.com/liquibase/liquibase/pull/7812 "fix(snapshot): close owning Statement in ResultSetCache.extract to prevent JDBC Statement leak") fix(snapshot): close owning Statement in ResultSetCache…
 
-<img src="https://github.com/michael-denyer.png" width="16" height="16"/> **[pstack-claude](https://github.com/michael-denyer/pstack-claude)** `1`
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
 
-- [**#478**](https://github.com/michael-denyer/pstack-claude/pull/478 "Treat setext and tab-separated headings as headings in check-playbooks") Treat setext and tab-separated headings as headings in …
-
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-amqp](https://github.com/spring-projects/spring-amqp)** `1`
-
-- [**#3843**](https://github.com/spring-projects/spring-amqp/pull/3843 "GH-3839: Call stateless retry recoverer in AMQP 1.0 container") GH-3839: Call stateless retry recoverer in AMQP 1.0 con…
-
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
-
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
-
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-tools](https://github.com/spring-projects/spring-tools)** `1`
-
-- [**#2071**](https://github.com/spring-projects/spring-tools/pull/2071 "GH-1832: put the API version into the version path segment of live request mapping URLs") GH-1832: put the API version into the version path segm…
-
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
-
-- [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
 
 <img src="https://github.com/dbeaver.png" width="16" height="16"/> **[dbeaver](https://github.com/dbeaver/dbeaver)** `1`
 
 - [**#42665**](https://github.com/dbeaver/dbeaver/pull/42665 "dbeaver/dbeaver#41407 Hide internal Firebird domains from column type list") dbeaver/dbeaver#41407 Hide internal Firebird domains fr…
 
-<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
+<img src="https://github.com/michael-denyer.png" width="16" height="16"/> **[pstack-claude](https://github.com/michael-denyer/pstack-claude)** `1`
 
-- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
+- [**#478**](https://github.com/michael-denyer/pstack-claude/pull/478 "Treat setext and tab-separated headings as headings in check-playbooks") Treat setext and tab-separated headings as headings in …
+
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
+
+<img src="https://github.com/wshobson.png" width="16" height="16"/> **[agents](https://github.com/wshobson/agents)** `1`
+
+- [**#820**](https://github.com/wshobson/agents/pull/820 "fix(game-development): make two godot-gdscript-patterns examples parse in Godot 4") fix(game-development): make two godot-gdscript-patterns…
+
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-amqp](https://github.com/spring-projects/spring-amqp)** `1`
+
+- [**#3843**](https://github.com/spring-projects/spring-amqp/pull/3843 "GH-3839: Call stateless retry recoverer in AMQP 1.0 container") GH-3839: Call stateless retry recoverer in AMQP 1.0 con…
+
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
+
+- [**#19341**](https://github.com/spring-projects/spring-security/pull/19341 "Avoid spring-core in password encoder validation") Avoid spring-core in password encoder validation
+
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-tools](https://github.com/spring-projects/spring-tools)** `1`
+
+- [**#2071**](https://github.com/spring-projects/spring-tools/pull/2071 "GH-1832: put the API version into the version path segment of live request mapping URLs") GH-1832: put the API version into the version path segm…
 
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
+<img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-framework](https://github.com/spring-projects/spring-framework)** `1`
 
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+- [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
