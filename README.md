@@ -193,8 +193,8 @@
 <img src="assets/section-writing.webp" width="100%" alt="Learning in public — 원리를 파고든 과정을 기록합니다."/>
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-11-25 — [attention sink: 첫 토큰 4개를 버리면 PPL 5.40이 5158이 된다](https://velog.io/@jungseonw00/attention-sink-streaming-llm)
 - 2026-11-23 — [Claude Java SDK는 잘린 tool_use input을 {}로 바꾼다](https://velog.io/@jungseonw00/claude-streaming-tool-input-json-delta)
 - 2026-11-20 — [Llama 3.1 rope_scaling이 RoPE 주파수 29개만 8배 늦추는 이유](https://velog.io/@jungseonw00/llama3-rope-scaling-frequency-bands)
 - 2026-11-18 — [pass@k를 통과율로 환산하면 왜 점수가 깎일까](https://velog.io/@jungseonw00/pass-at-k-unbiased-estimator)
-- 2026-11-16 — [Claude defer_loading 도구는 매 요청 다시 보내야 한다](https://velog.io/@jungseonw00/claude-tool-search-defer-loading)
-- 2026-11-13 — [LoRA lora_alpha/r와 rsLoRA α/√r는 무엇이 다를까](https://velog.io/@jungseonw00/lora-alpha-rank-rslora-scaling)<!-- BLOG-POST-LIST:END -->
+- 2026-11-16 — [Claude defer_loading 도구는 매 요청 다시 보내야 한다](https://velog.io/@jungseonw00/claude-tool-search-defer-loading)<!-- BLOG-POST-LIST:END -->
