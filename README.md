@@ -14,7 +14,7 @@
 <!-- OSS-LIST:START -->
 
 <p>
-  <img alt="Merged PRs: 81" src="https://img.shields.io/badge/Merged_PRs-81-704ad1?style=for-the-badge&amp;labelColor=242438"/>
+  <img alt="Merged PRs: 82" src="https://img.shields.io/badge/Merged_PRs-82-704ad1?style=for-the-badge&amp;labelColor=242438"/>
   <img alt="Projects contributed: 28" src="https://img.shields.io/badge/Projects-28-704ad1?style=for-the-badge&amp;labelColor=242438"/>
 </p>
 
@@ -111,36 +111,33 @@
 - [**#1613**](https://github.com/FasterXML/jackson-core/pull/1613 "Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5-style hex literals (#707)") Add JsonReadFeature.ALLOW_HEXADECIMAL_NUMBERS for JSON5…
 - [**#1614**](https://github.com/FasterXML/jackson-core/pull/1614 "Preserve explicit &quot;+&quot; sign across buffer boundaries for &quot;+0...&quot; on async parser") Preserve explicit "+" sign across buffer boundaries for…
 
-<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
+<img src="https://github.com/dbeaver.png" width="16" height="16"/> **[dbeaver](https://github.com/dbeaver/dbeaver)** `2`
 
-- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
-- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
-
-<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
-
-- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
-- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
+- [**#43022**](https://github.com/dbeaver/dbeaver/pull/43022 "dbeaver/dbeaver#41239 Map PostgreSQL &quot;char&quot; type to CHAR regardless of type category") dbeaver/dbeaver#41239 Map PostgreSQL "char" type to CHA…
+- [**#42665**](https://github.com/dbeaver/dbeaver/pull/42665 "dbeaver/dbeaver#41407 Hide internal Firebird domains from column type list") dbeaver/dbeaver#41407 Hide internal Firebird domains fr…
 
 <img src="https://github.com/michael-denyer.png" width="16" height="16"/> **[pstack-claude](https://github.com/michael-denyer/pstack-claude)** `2`
 
 - [**#498**](https://github.com/michael-denyer/pstack-claude/pull/498 "Map reflect's copy destinations to Pi's and Codex's skill folders") Map reflect's copy destinations to Pi's and Codex's ski…
 - [**#478**](https://github.com/michael-denyer/pstack-claude/pull/478 "Treat setext and tab-separated headings as headings in check-playbooks") Treat setext and tab-separated headings as headings in …
 
-<img src="https://github.com/dbeaver.png" width="16" height="16"/> **[dbeaver](https://github.com/dbeaver/dbeaver)** `1`
+<img src="https://github.com/springdoc.png" width="16" height="16"/> **[springdoc-openapi](https://github.com/springdoc/springdoc-openapi)** `2`
 
-- [**#42665**](https://github.com/dbeaver/dbeaver/pull/42665 "dbeaver/dbeaver#41407 Hide internal Firebird domains from column type list") dbeaver/dbeaver#41407 Hide internal Firebird domains fr…
+- [**#3296**](https://github.com/springdoc/springdoc-openapi/pull/3296 "Fix #3282: preserve nest() version predicate across all routes in nest") Fix #3282: preserve nest() version predicate across all…
+- [**#3292**](https://github.com/springdoc/springdoc-openapi/pull/3292 "Make WebProperties and WebMvcProperties optional in SwaggerConfig") Make WebProperties and WebMvcProperties optional in Swa…
 
-<img src="https://github.com/wshobson.png" width="16" height="16"/> **[agents](https://github.com/wshobson/agents)** `1`
+<img src="https://github.com/netty.png" width="16" height="16"/> **[netty](https://github.com/netty/netty)** `2`
 
-- [**#820**](https://github.com/wshobson/agents/pull/820 "fix(game-development): make two godot-gdscript-patterns examples parse in Godot 4") fix(game-development): make two godot-gdscript-patterns…
-
-<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
-
-- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
+- [**#17104**](https://github.com/netty/netty/pull/17104 "Fix NPE in AbstractNioChannel.removeReadOp() after concurrent deregistration") Fix NPE in AbstractNioChannel.removeReadOp() after conc…
+- [**#17140**](https://github.com/netty/netty/pull/17140 "Avoid classloader leak via GlobalEventExecutor terminationFuture failure") Avoid classloader leak via GlobalEventExecutor terminat…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-amqp](https://github.com/spring-projects/spring-amqp)** `1`
 
 - [**#3843**](https://github.com/spring-projects/spring-amqp/pull/3843 "GH-3839: Call stateless retry recoverer in AMQP 1.0 container") GH-3839: Call stateless retry recoverer in AMQP 1.0 con…
+
+<img src="https://github.com/FasterXML.png" width="16" height="16"/> **[jackson-modules-java8](https://github.com/FasterXML/jackson-modules-java8)** `1`
+
+- [**#386**](https://github.com/FasterXML/jackson-modules-java8/pull/386 "Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#76)") Add `JavaTimeFeature.ALWAYS_WRITE_SUBSECOND_DIGITS` (#7…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-security](https://github.com/spring-projects/spring-security)** `1`
 
@@ -154,13 +151,17 @@
 
 - [**#36935**](https://github.com/spring-projects/spring-framework/pull/36935 "Suppress CGLIB validation WARN for lifecycle callbacks") Suppress CGLIB validation WARN for lifecycle callbacks
 
+<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
+
+- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+
 <img src="https://github.com/mybatis.png" width="16" height="16"/> **[spring](https://github.com/mybatis/spring)** `1`
 
 - [**#1258**](https://github.com/mybatis/spring/pull/1258 "fix: exclude annotation types from mapper candidate components") fix: exclude annotation types from mapper candidate com…
 
-<img src="https://github.com/swagger-api.png" width="16" height="16"/> **[swagger-parser](https://github.com/swagger-api/swagger-parser)** `1`
+<img src="https://github.com/wshobson.png" width="16" height="16"/> **[agents](https://github.com/wshobson/agents)** `1`
 
-- [**#2349**](https://github.com/swagger-api/swagger-parser/pull/2349 "Resolve same-named schemas from different files as distinct components (fixes #2333)") Resolve same-named schemas from different files as dist…
+- [**#820**](https://github.com/wshobson/agents/pull/820 "fix(game-development): make two godot-gdscript-patterns examples parse in Godot 4") fix(game-development): make two godot-gdscript-patterns…
 
 <img src="https://github.com/spring-projects.png" width="16" height="16"/> **[spring-boot](https://github.com/spring-projects/spring-boot)** `1`
 
